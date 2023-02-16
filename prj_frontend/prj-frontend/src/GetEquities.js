@@ -13,6 +13,8 @@ import {useState , useEffect} from 'react';
 
 function GetEquities(){
     const [equityData , setData] = React.useState([]);
+    // const allData = JSON.parse(equityData);
+    
     const result = async () => {
         await axios.get("http://localhost:5202/getequities")
         .then((response) => {
