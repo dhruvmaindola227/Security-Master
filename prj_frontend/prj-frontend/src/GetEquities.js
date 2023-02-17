@@ -34,7 +34,7 @@ function GetEquities(){
             <TableHead>
               <TableRow>
                 <TableCell>security name</TableCell>
-                <TableCell align="left">has position</TableCell>
+                <TableCell align="right">has position</TableCell>
                 {/* <TableCell align="right">Fat</TableCell>
                 <TableCell align="right">Carbs</TableCell>
                 <TableCell align="right">Protein</TableCell> */}
@@ -53,7 +53,7 @@ function GetEquities(){
                   <TableCell component="th" scope="row">
                     {value.securityName}
                   </TableCell>
-                  <TableCell align="right">{String(value.hasPosition)}</TableCell>
+                  <TableCell align="right">{String(value.hasPosition).toUpperCase()}</TableCell>
                   
                 </TableRow>
                 
