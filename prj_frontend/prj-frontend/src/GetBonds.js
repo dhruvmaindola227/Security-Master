@@ -14,7 +14,7 @@ import {useState , useEffect} from 'react';
 function GetEquities(){
     const [bondData , setData] = React.useState([]);
     const result = async () => {
-        await axios.get("http://localhost:5202/getbonds")
+        await axios.get("http://localhost:5144/getbonds")
         .then((response) => {
             setData(response.data);
             console.log("this is message  " , response , result);
@@ -53,9 +53,9 @@ function GetEquities(){
                     {value.securityName}
                   </TableCell>
                   <TableCell align="right">{value.securityDescription}</TableCell>
-                  {/* <TableCell align="right">{rresultow.fat}</TableCell>
-                  <TableCell align="right">{row.carbs}</TableCell>
-                  <TableCell align="right">{row.protein}</TableCell> */}
+                 <TableCell align="right">{value.securityId}</TableCell> 
+                  {/* <TableCell align="right">{row.carbs}</TableCell>
+                  // <TableCell align="right">{row.protein}</TableCell> */} 
                 </TableRow>
                 
                 )

@@ -12,7 +12,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy(corsPolicyName, policy =>
     {
-        policy.WithOrigins("http://localhost:5202");
+        policy.WithOrigins("http://localhost:5144");
         policy.WithOrigins("http://localhost:3000");
     });
 });

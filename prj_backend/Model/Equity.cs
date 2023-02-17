@@ -5,12 +5,11 @@ namespace prj_backend.Model
 {
     public partial class Equity
     {
-        public int? AttributeId { get; set; }
-        public string? SecurityName { get; set; }
+        public string SecurityName { get; set; } = null!;
         public string? SecurityDescription { get; set; }
-        public string? HasPosition { get; set; }
-        public string? IsActiveSecurity { get; set; }
-        public string? LotSize { get; set; }
+        public bool? HasPosition { get; set; }
+        public bool? IsActiveSecurity { get; set; }
+        public double? LotSize { get; set; }
         public string? BbgUniqueName { get; set; }
         public string? Cusip { get; set; }
         public string? Isin { get; set; }
@@ -19,20 +18,20 @@ namespace prj_backend.Model
         public string? BloombergUniqueId { get; set; }
         public string? BbgGlobalId { get; set; }
         public string? TickerAndExchange { get; set; }
-        public string? IsAdrFlag { get; set; }
+        public bool? IsAdrFlag { get; set; }
         public string? AdrUnderlyingTicker { get; set; }
         public string? AdrUnderlyingCurrency { get; set; }
         public string? SharesPerAdr { get; set; }
-        public string? IpoDate { get; set; }
+        public DateTime? IpoDate { get; set; }
         public string? PricingCurrency { get; set; }
-        public string? SettleDays { get; set; }
-        public string? TotalSharesOutstanding { get; set; }
-        public string? VotingRightsPerShare { get; set; }
-        public string? AverageVolume20d { get; set; }
-        public string? Beta { get; set; }
-        public string? ShortInterest { get; set; }
-        public string? ReturnYtd { get; set; }
-        public string? Volatility90d { get; set; }
+        public long? SettleDays { get; set; }
+        public double? TotalSharesOutstanding { get; set; }
+        public double? VotingRightsPerShare { get; set; }
+        public double? AverageVolume20d { get; set; }
+        public double? Beta { get; set; }
+        public double? ShortInterest { get; set; }
+        public double? ReturnYtd { get; set; }
+        public double? Volatility90d { get; set; }
         public string? PfAssetClass { get; set; }
         public string? PfCountry { get; set; }
         public string? PfCreditRating { get; set; }
@@ -54,19 +53,20 @@ namespace prj_backend.Model
         public string? BloombergSector { get; set; }
         public string? CountryOfIncorporation { get; set; }
         public string? RiskCurrency { get; set; }
-        public string? OpenPrice { get; set; }
-        public string? ClosePrice { get; set; }
-        public string? Volume { get; set; }
-        public string? LastPrice { get; set; }
-        public string? AskPrice { get; set; }
-        public string? BidPrice { get; set; }
-        public string? PeRatio { get; set; }
-        public string? DividendDeclaredDate { get; set; }
-        public string? DividendExDate { get; set; }
-        public string? DividendRecordDate { get; set; }
-        public string? DividendPayDate { get; set; }
-        public string? DividendAmount { get; set; }
+        public double? OpenPrice { get; set; }
+        public double? ClosePrice { get; set; }
+        public double? Volume { get; set; }
+        public double? LastPrice { get; set; }
+        public double? AskPrice { get; set; }
+        public double? BidPrice { get; set; }
+        public double? PeRatio { get; set; }
+        public DateTime? DividendDeclaredDate { get; set; }
+        public DateTime? DividendExDate { get; set; }
+        public DateTime? DividendRecordDate { get; set; }
+        public DateTime? DividendPayDate { get; set; }
+        public double? DividendAmount { get; set; }
         public string? Frequency { get; set; }
         public string? DividendType { get; set; }
+        public int SecurityId { get; set; }
     }
 }

@@ -16,7 +16,7 @@ function GetEquities(){
     // const allData = JSON.parse(equityData);
     
     const result = async () => {
-        await axios.get("http://localhost:5202/getequities")
+        await axios.get("http://localhost:5144/getequities")
         .then((response) => {
             setData(response.data);
             console.log("this is message  " , response , result);
@@ -34,7 +34,7 @@ function GetEquities(){
             <TableHead>
               <TableRow>
                 <TableCell>security name</TableCell>
-                <TableCell align="right">has position</TableCell>
+                <TableCell align="left">has position</TableCell>
                 {/* <TableCell align="right">Fat</TableCell>
                 <TableCell align="right">Carbs</TableCell>
                 <TableCell align="right">Protein</TableCell> */}
@@ -46,7 +46,6 @@ function GetEquities(){
               {
               equityData.map((value,index) => {
                 return ( 
-                    
                     <TableRow
                   key={index}
                   sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
@@ -54,10 +53,8 @@ function GetEquities(){
                   <TableCell component="th" scope="row">
                     {value.securityName}
                   </TableCell>
-                  <TableCell align="right">{value.hasPosition}</TableCell>
-                  {/* <TableCell align="right">{rresultow.fat}</TableCell>
-                  <TableCell align="right">{row.carbs}</TableCell>
-                  <TableCell align="right">{row.protein}</TableCell> */}
+                  <TableCell align="right">{String(value.hasPosition)}</TableCell>
+                  
                 </TableRow>
                 
                 )

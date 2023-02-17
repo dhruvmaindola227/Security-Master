@@ -5,9 +5,8 @@ namespace prj_backend.Model
 {
     public partial class Bond
     {
-        public int? AttributeId { get; set; }
         public string? SecurityDescription { get; set; }
-        public string? SecurityName { get; set; }
+        public string SecurityName { get; set; } = null!;
         public string? AssetType { get; set; }
         public string? InvestmentType { get; set; }
         public double? TradingFactor { get; set; }
@@ -20,7 +19,7 @@ namespace prj_backend.Model
         public DateTime? FirstCouponDate { get; set; }
         public string? Cap { get; set; }
         public string? Floor { get; set; }
-        public long? CouponFrequency { get; set; }
+        public double? CouponFrequency { get; set; }
         public double? Coupon { get; set; }
         public string? CouponType { get; set; }
         public string? Spread { get; set; }
@@ -28,10 +27,10 @@ namespace prj_backend.Model
         public bool? FixToFloatFlag { get; set; }
         public bool? PutableFlag { get; set; }
         public DateTime? IssueDate { get; set; }
-        public string? LastResetDate { get; set; }
+        public DateTime? LastResetDate { get; set; }
         public DateTime? Maturity { get; set; }
         public double? CallNotificationMaxDays { get; set; }
-        public string? PutNotificationMaxDays { get; set; }
+        public DateTime? PutNotificationMaxDays { get; set; }
         public DateTime? PenultimateCouponDate { get; set; }
         public string? ResetFrequency { get; set; }
         public bool? HasPosition { get; set; }
@@ -58,8 +57,8 @@ namespace prj_backend.Model
         public string? IssueCurrency { get; set; }
         public string? Issuer { get; set; }
         public string? RiskCurrency { get; set; }
-        public string? PutDate { get; set; }
-        public string? PutPrice { get; set; }
+        public DateTime? PutDate { get; set; }
+        public double? PutPrice { get; set; }
         public double? AskPrice { get; set; }
         public double? HighPrice { get; set; }
         public double? LowPrice { get; set; }
@@ -69,5 +68,6 @@ namespace prj_backend.Model
         public double? LastPrice { get; set; }
         public DateTime? CallDate { get; set; }
         public double? CallPrice { get; set; }
+        public int SecurityId { get; set; }
     }
 }
