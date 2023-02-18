@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using prj_backend.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace webAPI.Controllers;
 
@@ -70,6 +71,23 @@ public class BondController : ControllerBase
         bondModel.ApplyTo(bond);
         _DBContext.SaveChanges();
         return Ok(bond);
+    }
+
+
+
+     [HttpPut("UpdateBond/{securityId}")]
+     public IActionResult UpdateBond([FromRoute] int securityId , [FromBody] Bond bondModel)
+    {
+        if(securityId != bondModel.SecurityId){
+            return BadRequest();
+        }
+        _DBContext.Entry(bondModel).State = EntityState.Modified; //means we are trying to update the state of a particular employee.
+        try{
+            _DBContext.SaveChanges();
+        }catch(DbUpdateConcurrencyException){
+            throw;
+        }
+        return Ok(true);
     }
 
 }
