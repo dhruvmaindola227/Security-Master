@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using prj_backend.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace Prj.Controllers;
 
@@ -60,6 +62,32 @@ public class EquityController : ControllerBase
         this._DBContext.SaveChanges();
       }
       return Ok(true);
+    }
+
+
+     [HttpPatch("UpdateEquity/{securityId}")]
+    public IActionResult UpdateEquity([FromBody] JsonPatchDocument equityModel ,[FromRoute] int securityId){
+        var equity = _DBContext.Equities.Find(securityId);
+        equityModel.ApplyTo(equity);
+        _DBContext.SaveChanges();
+        return Ok(equity);
+    }
+
+
+
+     [HttpPut("UpdateEquity/{securityId}")]
+     public IActionResult UpdateBond([FromRoute] int securityId , [FromBody] Equity equityModel)
+    {
+        if(securityId != equityModel.SecurityId){
+            return BadRequest();
+        }
+        _DBContext.Entry(equityModel).State = EntityState.Modified; //means we are trying to update the state of a particular 
+        try{
+            _DBContext.SaveChanges();
+        }catch(DbUpdateConcurrencyException){
+            throw;
+        }
+        return Ok(true);
     }
 
 
