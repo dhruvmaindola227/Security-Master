@@ -13,8 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import companyLogo from "./images/ivp-footer-logo.png";
-import photoStyle from "./styles/photo.css";
-import appBarStyle from "./styles/AppBar.css";
+import { height } from '@mui/system';
+
 
 
 
@@ -41,10 +41,10 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="sticky" className='AppBar' style={appBarStyle}>
+    <AppBar position="sticky"  style={{backgroundColor : "black"}}>
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
-            <img src={companyLogo} className = "photo" alt='Indus Valley Partners' style={photoStyle}/>
+        <Toolbar disableGutters >
+            <img src={companyLogo} alt='Indus Valley Partners' style={{width : "200px" , height : "45px"}}/>
           <Typography
             variant="h6"
             noWrap
@@ -61,10 +61,9 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-           
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }}}>
+          {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }}}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -95,7 +94,7 @@ function ResponsiveAppBar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <MenuItem key={page} onClick={handleCloseNavMenu} >
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
@@ -119,20 +118,23 @@ function ResponsiveAppBar() {
             }}
           >
             
-          </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+          </Typography> */}
+          <Box ml={"400px"}>
+            <Typography sx={{color : '#F5CB5C' }}>
+              SECURITY MASTER
+            </Typography>
+            {/* {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: '#F5CB5C', display: 'block' }}
               >
                 {page}
               </Button>
-            ))}
+            ))} */}
           </Box>
 
-          <Box  sx={{ flexGrow: 0 }} >
+          {/* <Box  sx={{ flexGrow: 0 }} >
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -160,7 +162,7 @@ function ResponsiveAppBar() {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>
