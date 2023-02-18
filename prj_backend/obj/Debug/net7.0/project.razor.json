@@ -13,7 +13,11 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+<<<<<<< Updated upstream
         "HashCode": -1901827709,
+=======
+        "HashCode": -1286716284,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -97,7 +101,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -2140026587,
+=======
+        "HashCode": 674488571,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -182,7 +190,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 285329241,
+=======
+        "HashCode": 2090203459,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -215,7 +227,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -18936204,
+=======
+        "HashCode": 1797661984,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -249,7 +265,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -654278075,
+=======
+        "HashCode": -1355704475,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -270,7 +290,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1077346304,
+=======
+        "HashCode": 1488312911,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -292,7 +316,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1097987095,
+=======
+        "HashCode": -1933619476,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -397,7 +425,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 26411291,
+=======
+        "HashCode": -1233536093,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -503,7 +535,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1725581599,
+=======
+        "HashCode": -1074750989,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -536,7 +572,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1854123403,
+=======
+        "HashCode": -958224930,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -570,7 +610,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1173048,
+=======
+        "HashCode": -1676607920,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -603,7 +647,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -655613537,
+=======
+        "HashCode": 1919100759,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -637,7 +685,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1196156194,
+=======
+        "HashCode": -715089556,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -670,7 +722,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1184903485,
+=======
+        "HashCode": 635773771,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -704,7 +760,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1495671826,
+=======
+        "HashCode": -1882027778,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -725,7 +785,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 842539316,
+=======
+        "HashCode": -870973103,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -747,7 +811,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -18504140,
+=======
+        "HashCode": 1547570051,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -778,7 +846,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 82732280,
+=======
+        "HashCode": 589310333,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -810,7 +882,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 45255309,
+=======
+        "HashCode": 386863488,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -831,7 +907,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -73030388,
+=======
+        "HashCode": 1166399542,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -853,7 +933,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 422195998,
+=======
+        "HashCode": -455753968,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -928,7 +1012,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1380155043,
+=======
+        "HashCode": -515266877,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1004,7 +1092,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 475402303,
+=======
+        "HashCode": -1862503626,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1025,7 +1117,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1008314404,
+=======
+        "HashCode": 882328833,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1047,7 +1143,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1972809576,
+=======
+        "HashCode": 1696306149,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1089,7 +1189,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 304859880,
+=======
+        "HashCode": -97793293,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1132,7 +1236,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1234566032,
+=======
+        "HashCode": 2135853907,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1174,7 +1282,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1911368487,
+=======
+        "HashCode": 961912936,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1217,7 +1329,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 533189991,
+=======
+        "HashCode": 1611881197,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1238,7 +1354,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1469616110,
+=======
+        "HashCode": 628311748,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1260,7 +1380,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -940992074,
+=======
+        "HashCode": 2014366409,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1302,7 +1426,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1132253979,
+=======
+        "HashCode": 1861218040,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1345,7 +1473,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1823410229,
+=======
+        "HashCode": 1531630816,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1453,7 +1585,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1246249861,
+=======
+        "HashCode": -1890498653,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1562,7 +1698,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 806293279,
+=======
+        "HashCode": -1226169948,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1583,7 +1723,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1648130755,
+=======
+        "HashCode": -47149643,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1605,7 +1749,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1633871423,
+=======
+        "HashCode": 1016989749,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1638,7 +1786,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 2080877216,
+=======
+        "HashCode": -396062156,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1672,7 +1824,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -957419455,
+=======
+        "HashCode": 1577150260,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1693,7 +1849,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1628572189,
+=======
+        "HashCode": -866760267,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1715,7 +1875,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1146591278,
+=======
+        "HashCode": -1713111814,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1734,7 +1898,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1385353263,
+=======
+        "HashCode": -1240007114,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1754,7 +1922,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 980543132,
+=======
+        "HashCode": -489743863,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1859,7 +2031,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -129039715,
+=======
+        "HashCode": -773364106,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1965,7 +2141,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 734600924,
+=======
+        "HashCode": -1969762669,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1998,7 +2178,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1673320356,
+=======
+        "HashCode": -939506267,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2032,7 +2216,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -701528760,
+=======
+        "HashCode": -290684284,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2104,7 +2292,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1241377135,
+=======
+        "HashCode": 1781761455,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2177,7 +2369,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1866040049,
+=======
+        "HashCode": 1352619870,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2285,7 +2481,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1878150591,
+=======
+        "HashCode": 280311983,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2394,7 +2594,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 535961738,
+=======
+        "HashCode": -870731451,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2436,7 +2640,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 899015962,
+=======
+        "HashCode": -562611715,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2479,7 +2687,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1951443823,
+=======
+        "HashCode": -1442353839,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2576,7 +2788,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1713174404,
+=======
+        "HashCode": -646496173,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2674,7 +2890,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 77117493,
+=======
+        "HashCode": 658412951,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2738,7 +2958,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1038029196,
+=======
+        "HashCode": -841651501,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2803,7 +3027,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1568709066,
+=======
+        "HashCode": -1971765147,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2911,7 +3139,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 762324030,
+=======
+        "HashCode": -1953499553,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3020,7 +3252,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 338996653,
+=======
+        "HashCode": -86563321,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3041,7 +3277,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1527183468,
+=======
+        "HashCode": 991785284,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3063,7 +3303,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1335487064,
+=======
+        "HashCode": 1985249758,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3161,7 +3405,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1374153331,
+=======
+        "HashCode": -1286970116,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3260,7 +3508,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1383800782,
+=======
+        "HashCode": -606982537,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3281,7 +3533,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 436858467,
+=======
+        "HashCode": 894872137,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3303,7 +3559,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1962886987,
+=======
+        "HashCode": 1457108937,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3375,7 +3635,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -808405759,
+=======
+        "HashCode": 180896080,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3448,7 +3712,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1937483537,
+=======
+        "HashCode": -1355000663,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3520,7 +3788,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 840126694,
+=======
+        "HashCode": -249291747,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3593,7 +3865,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -596394099,
+=======
+        "HashCode": -329205335,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3647,7 +3923,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1520755252,
+=======
+        "HashCode": -1857227824,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3702,7 +3982,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1241362852,
+=======
+        "HashCode": -1892931206,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3743,7 +4027,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 78362696,
+=======
+        "HashCode": -105555443,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3785,7 +4073,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1000838619,
+=======
+        "HashCode": -1418033479,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3826,7 +4118,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1974431218,
+=======
+        "HashCode": 1487014815,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3868,7 +4164,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1137373790,
+=======
+        "HashCode": -705772135,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3931,7 +4231,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1795197600,
+=======
+        "HashCode": 1518700620,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3995,7 +4299,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1146175533,
+=======
+        "HashCode": -848693112,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4016,7 +4324,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -540295665,
+=======
+        "HashCode": 1746726326,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4038,7 +4350,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1033557532,
+=======
+        "HashCode": 520065886,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4070,7 +4386,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -638715932,
+=======
+        "HashCode": -1337871087,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4103,7 +4423,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1114803176,
+=======
+        "HashCode": 190289646,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4124,7 +4448,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -318001544,
+=======
+        "HashCode": -69412246,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4146,7 +4474,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 40064661,
+=======
+        "HashCode": 1890797898,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4165,7 +4497,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 127696011,
+=======
+        "HashCode": -2009348385,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4185,7 +4521,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 202944344,
+=======
+        "HashCode": 239681778,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4217,7 +4557,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1533903769,
+=======
+        "HashCode": 1711217553,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4250,7 +4594,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1026873966,
+=======
+        "HashCode": 1693254223,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4271,7 +4619,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1123371099,
+=======
+        "HashCode": -1926362030,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4293,7 +4645,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -49405326,
+=======
+        "HashCode": -8057148,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4356,7 +4712,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -230079684,
+=======
+        "HashCode": -399030040,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4420,7 +4780,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1231025976,
+=======
+        "HashCode": 1742194943,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4441,7 +4805,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -601783564,
+=======
+        "HashCode": -836926500,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4463,7 +4831,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1889591605,
+=======
+        "HashCode": -843841826,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4496,7 +4868,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1709139918,
+=======
+        "HashCode": -1300445646,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4530,7 +4906,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 2145787160,
+=======
+        "HashCode": 999027067,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4662,7 +5042,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1973854464,
+=======
+        "HashCode": 1737557592,
+>>>>>>> Stashed changes
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4795,7 +5179,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 970090358,
+=======
+        "HashCode": -629126646,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4828,7 +5216,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 697437078,
+=======
+        "HashCode": -623107985,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4862,7 +5254,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -990312141,
+=======
+        "HashCode": -1712705593,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4895,7 +5291,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1045358159,
+=======
+        "HashCode": 1330926431,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4929,7 +5329,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -26472553,
+=======
+        "HashCode": 195067150,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4962,7 +5366,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1584260871,
+=======
+        "HashCode": -1286473089,
+>>>>>>> Stashed changes
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4996,7 +5404,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1742623835,
+=======
+        "HashCode": -985607006,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5079,7 +5491,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1949778267,
+=======
+        "HashCode": -1780356760,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onblur",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5162,7 +5578,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1105713911,
+=======
+        "HashCode": 1957197818,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5245,7 +5665,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -605964614,
+=======
+        "HashCode": -183345546,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5328,7 +5752,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -165415143,
+=======
+        "HashCode": -1696173436,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5411,7 +5839,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1723048340,
+=======
+        "HashCode": 1464956315,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5494,7 +5926,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1351674779,
+=======
+        "HashCode": 1049894007,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onmouseleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5577,7 +6013,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1483377836,
+=======
+        "HashCode": 924351146,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onmouseenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5660,7 +6100,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1551509475,
+=======
+        "HashCode": 1396736263,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5743,7 +6187,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1936430813,
+=======
+        "HashCode": -921184742,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5826,7 +6274,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 473751016,
+=======
+        "HashCode": -1286996542,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5909,7 +6361,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -813925171,
+=======
+        "HashCode": -334366869,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5992,7 +6448,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1480974830,
+=======
+        "HashCode": -330563118,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6075,7 +6535,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1299954331,
+=======
+        "HashCode": -1468836310,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6158,7 +6622,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 383475554,
+=======
+        "HashCode": 635856817,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6241,7 +6709,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1092332349,
+=======
+        "HashCode": 68167193,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6324,7 +6796,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 239294057,
+=======
+        "HashCode": -1610620848,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6407,7 +6883,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 30446315,
+=======
+        "HashCode": 1631310105,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6490,7 +6970,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1100549108,
+=======
+        "HashCode": -1283056614,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6573,7 +7057,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -73502467,
+=======
+        "HashCode": -702888915,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6656,7 +7144,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1452754870,
+=======
+        "HashCode": -2052095472,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6739,7 +7231,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -919912542,
+=======
+        "HashCode": -112982189,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6822,7 +7318,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1581614121,
+=======
+        "HashCode": 1992273759,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6905,7 +7405,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -445549257,
+=======
+        "HashCode": -1270590997,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6988,7 +7492,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1427969857,
+=======
+        "HashCode": -958554044,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7071,7 +7579,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 525198847,
+=======
+        "HashCode": 1805896418,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7154,7 +7666,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -19825857,
+=======
+        "HashCode": 205994218,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7237,7 +7753,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1505719741,
+=======
+        "HashCode": 1194214951,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "oninput",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7320,7 +7840,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 256153327,
+=======
+        "HashCode": -1771711705,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7403,7 +7927,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1461853453,
+=======
+        "HashCode": 617421544,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onreset",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7486,7 +8014,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 989053220,
+=======
+        "HashCode": 205406813,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onselect",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7569,7 +8101,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1915220466,
+=======
+        "HashCode": -1525800350,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7652,7 +8188,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1678569865,
+=======
+        "HashCode": -1180351727,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7735,7 +8275,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1371089180,
+=======
+        "HashCode": -971814259,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7818,7 +8362,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1701210915,
+=======
+        "HashCode": 59200503,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7901,7 +8449,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1167155930,
+=======
+        "HashCode": 1142643594,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7984,7 +8536,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1639968046,
+=======
+        "HashCode": -402658377,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8067,7 +8623,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 158404725,
+=======
+        "HashCode": 555003113,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8150,7 +8710,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 894682473,
+=======
+        "HashCode": 2078141286,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "oncut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8233,7 +8797,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -508346710,
+=======
+        "HashCode": -1526912197,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8316,7 +8884,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1619125098,
+=======
+        "HashCode": 1198036042,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8399,7 +8971,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -528665995,
+=======
+        "HashCode": -1945608894,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8482,7 +9058,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -862017385,
+=======
+        "HashCode": 964669302,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8565,7 +9145,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 332621373,
+=======
+        "HashCode": 1158558197,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8648,7 +9232,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -634732161,
+=======
+        "HashCode": -1715080595,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8731,7 +9319,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1678667045,
+=======
+        "HashCode": -252793762,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8814,7 +9406,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 725559969,
+=======
+        "HashCode": 600892508,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8897,7 +9493,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 92782473,
+=======
+        "HashCode": -1861270466,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8980,7 +9580,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 35360832,
+=======
+        "HashCode": 327363350,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9063,7 +9667,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 350013541,
+=======
+        "HashCode": -1164081031,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9146,7 +9754,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 282699498,
+=======
+        "HashCode": -897726569,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9229,7 +9841,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 54986785,
+=======
+        "HashCode": 190411534,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9312,7 +9928,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1581212638,
+=======
+        "HashCode": -1517601031,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9395,7 +10015,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -922699437,
+=======
+        "HashCode": -1734097969,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9478,7 +10102,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1945199100,
+=======
+        "HashCode": -2064472825,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9561,7 +10189,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -174554500,
+=======
+        "HashCode": 1822592226,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9644,7 +10276,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1929203193,
+=======
+        "HashCode": -814472200,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9727,7 +10363,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 76901082,
+=======
+        "HashCode": -2071636062,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9810,7 +10450,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -257033656,
+=======
+        "HashCode": -1565747824,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9893,7 +10537,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -301280123,
+=======
+        "HashCode": 274393106,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9976,7 +10624,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 565346893,
+=======
+        "HashCode": 1176891258,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10059,7 +10711,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 925198566,
+=======
+        "HashCode": -1650766955,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpause",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10142,7 +10798,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1420177920,
+=======
+        "HashCode": -515899117,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10225,7 +10885,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -682534692,
+=======
+        "HashCode": 556252217,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10308,7 +10972,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -14786788,
+=======
+        "HashCode": -1317658425,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10391,7 +11059,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1480024248,
+=======
+        "HashCode": 1586514536,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10474,7 +11146,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1455789944,
+=======
+        "HashCode": -1109836140,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10557,7 +11233,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -103721269,
+=======
+        "HashCode": 57688018,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10640,7 +11320,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1440690271,
+=======
+        "HashCode": -848924994,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onstop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10723,7 +11407,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -20925736,
+=======
+        "HashCode": -192968212,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10806,7 +11494,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -531737717,
+=======
+        "HashCode": 50522896,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10889,7 +11581,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 791449306,
+=======
+        "HashCode": -207586679,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10972,7 +11668,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 905762196,
+=======
+        "HashCode": 1057619450,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11055,7 +11755,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -104282760,
+=======
+        "HashCode": -712690823,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11138,7 +11842,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -417477565,
+=======
+        "HashCode": 847482010,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11221,7 +11929,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 419930909,
+=======
+        "HashCode": -913821687,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onabort",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11304,7 +12016,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 259351253,
+=======
+        "HashCode": 368996264,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onload",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11387,7 +12103,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -586521331,
+=======
+        "HashCode": 98063735,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11470,7 +12190,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 251205761,
+=======
+        "HashCode": -64573684,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11553,7 +12277,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 688465119,
+=======
+        "HashCode": -195398888,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11636,7 +12364,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 513224686,
+=======
+        "HashCode": -1887423701,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11719,7 +12451,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -506673806,
+=======
+        "HashCode": -922651680,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11802,7 +12538,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -804205590,
+=======
+        "HashCode": 531117077,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11885,7 +12625,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 815157766,
+=======
+        "HashCode": -754601220,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11968,7 +12712,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1934129270,
+=======
+        "HashCode": 1561727207,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onended",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12051,7 +12799,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 10311385,
+=======
+        "HashCode": 479625893,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12134,7 +12886,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1083763201,
+=======
+        "HashCode": 753014786,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12217,7 +12973,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1727700705,
+=======
+        "HashCode": 1728117958,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12300,7 +13060,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1665421705,
+=======
+        "HashCode": -1355589993,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12383,7 +13147,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 50899303,
+=======
+        "HashCode": 1558371829,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12466,7 +13234,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1715930012,
+=======
+        "HashCode": 336082502,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12549,7 +13321,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1622995376,
+=======
+        "HashCode": -613605104,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12632,7 +13408,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 293706247,
+=======
+        "HashCode": -1926945401,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12715,7 +13495,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 322940668,
+=======
+        "HashCode": -162603604,
+>>>>>>> Stashed changes
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12798,7 +13582,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 280403333,
+=======
+        "HashCode": -1971974716,
+>>>>>>> Stashed changes
         "Kind": "Components.Splat",
         "Name": "Attributes",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12837,7 +13625,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1316121268,
+=======
+        "HashCode": 1337788438,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
@@ -13154,7 +13946,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -377908003,
+=======
+        "HashCode": -1517563934,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13353,7 +14149,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -447028132,
+=======
+        "HashCode": -1877944279,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13482,7 +14282,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1609986037,
+=======
+        "HashCode": 2027164563,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13539,7 +14343,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1916866062,
+=======
+        "HashCode": 931630537,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13673,7 +14481,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1669798284,
+=======
+        "HashCode": -567128839,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13721,7 +14533,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 823084363,
+=======
+        "HashCode": 1016946258,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14140,7 +14956,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1466296062,
+=======
+        "HashCode": 1099908694,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14244,7 +15064,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1541072982,
+=======
+        "HashCode": -1178187048,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14292,7 +15116,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1691352937,
+=======
+        "HashCode": -974146134,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14364,7 +15192,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -585042390,
+=======
+        "HashCode": 580423072,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14399,7 +15231,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -927163080,
+=======
+        "HashCode": -1736141615,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14597,7 +15433,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 2144488794,
+=======
+        "HashCode": -1576296823,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14627,7 +15467,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -659733265,
+=======
+        "HashCode": -871514724,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14710,7 +15554,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 299814011,
+=======
+        "HashCode": 1501802814,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PersistComponentStateTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14741,7 +15589,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -69305294,
+=======
+        "HashCode": 1780438063,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14896,7 +15748,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -941369482,
+=======
+        "HashCode": -543009592,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14957,7 +15813,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 830428001,
+=======
+        "HashCode": -53528091,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15001,7 +15861,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -716040462,
+=======
+        "HashCode": -1818466513,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15036,7 +15900,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1812805847,
+=======
+        "HashCode": 511814210,
+>>>>>>> Stashed changes
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15072,7 +15940,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1384923558,
+=======
+        "HashCode": -715898803,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15168,7 +16040,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -183487683,
+=======
+        "HashCode": 112554614,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15290,7 +16166,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1118292652,
+=======
+        "HashCode": -1259237005,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15412,7 +16292,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 961522596,
+=======
+        "HashCode": 1684762069,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15545,7 +16429,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1096590509,
+=======
+        "HashCode": -1251047970,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15678,7 +16566,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1976761483,
+=======
+        "HashCode": -1890803532,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15811,7 +16703,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1170764015,
+=======
+        "HashCode": -647679393,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15944,7 +16840,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1531868481,
+=======
+        "HashCode": 1790713490,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16077,7 +16977,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 904053679,
+=======
+        "HashCode": 360540323,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16210,7 +17114,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 655557741,
+=======
+        "HashCode": 688736137,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16343,7 +17251,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1844036006,
+=======
+        "HashCode": -2081621653,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16476,7 +17388,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1829040201,
+=======
+        "HashCode": -1344519006,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16609,7 +17525,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -945214476,
+=======
+        "HashCode": 2115016828,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16742,7 +17662,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -673489202,
+=======
+        "HashCode": -813596356,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16875,7 +17799,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 2089675702,
+=======
+        "HashCode": -1248220628,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17008,7 +17936,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 196121973,
+=======
+        "HashCode": -1287650439,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17130,7 +18062,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1237949442,
+=======
+        "HashCode": 841038199,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17252,7 +18188,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1277691064,
+=======
+        "HashCode": -87866596,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17339,7 +18279,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1273039109,
+=======
+        "HashCode": -697126859,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17427,7 +18371,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1751012942,
+=======
+        "HashCode": 1198986387,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17514,7 +18462,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 157495288,
+=======
+        "HashCode": 86539901,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17602,7 +18554,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 409039347,
+=======
+        "HashCode": -1755931148,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17689,7 +18645,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1102684818,
+=======
+        "HashCode": -2104205235,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17777,7 +18737,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1229217779,
+=======
+        "HashCode": -880722083,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17864,7 +18828,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -2081360131,
+=======
+        "HashCode": 750759529,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17952,7 +18920,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 971047784,
+=======
+        "HashCode": -284605382,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18039,7 +19011,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -281980549,
+=======
+        "HashCode": 953690119,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18127,7 +19103,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -693369159,
+=======
+        "HashCode": 1669440171,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18214,7 +19194,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1552185118,
+=======
+        "HashCode": 1669842263,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18302,7 +19286,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1800749341,
+=======
+        "HashCode": 1366343618,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18389,7 +19377,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 1345973786,
+=======
+        "HashCode": -1972677399,
+>>>>>>> Stashed changes
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18477,7 +19469,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": -1898805984,
+=======
+        "HashCode": -1852065070,
+>>>>>>> Stashed changes
         "Kind": "Components.Ref",
         "Name": "Ref",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18516,7 +19512,11 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "HashCode": 950860190,
+=======
+        "HashCode": 1154726669,
+>>>>>>> Stashed changes
         "Kind": "Components.Key",
         "Name": "Key",
         "AssemblyName": "Microsoft.AspNetCore.Components",
