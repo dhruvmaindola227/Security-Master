@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using prj_backend.Model;
 
@@ -63,9 +64,13 @@ public class BondController : ControllerBase
 
 
 
-
-    [Http]
-
+    [HttpPatch("UpdateBond/{securityId}")]
+    public IActionResult UpdateBond([FromBody] JsonPatchDocument bondModel ,[FromRoute] int securityId){
+        var bond = _DBContext.Bonds.Find(securityId);
+        bondModel.ApplyTo(bond);
+        _DBContext.SaveChanges();
+        return Ok(bond);
+    }
 
 }
 
