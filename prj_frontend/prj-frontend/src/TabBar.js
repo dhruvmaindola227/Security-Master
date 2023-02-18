@@ -6,8 +6,11 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import GetBonds from './GetBonds';
 import GetEquities from './GetEquities';
+import { color } from '@mui/system';
+
 
 function TabPanel(props) {
+  
   const { children, value, index, ...other } = props;
 
   return (
@@ -48,7 +51,7 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%'}}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Bonds" {...a11yProps(0)} />

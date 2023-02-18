@@ -6,12 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import GetEquities from './GetEquities';
 import GetBonds from './GetBonds';
 import TabBar from './TabBar';
+import LandingPage from './LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <GetEquities /> */}
     {/* <App /> */}
+    <LandingPage/>
     <TabBar/>
     {/* <GetBonds/> */}
   </React.StrictMode>
