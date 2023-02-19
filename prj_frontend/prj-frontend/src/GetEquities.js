@@ -54,9 +54,7 @@ function GetEquities(){
                     {value.securityName}
                   </TableCell>
                   <TableCell align="right">{String(value.hasPosition).toUpperCase()}</TableCell>
-                  
                 </TableRow>
-                
                 )
               })}
                 </>
