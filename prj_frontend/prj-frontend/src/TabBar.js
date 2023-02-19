@@ -1,18 +1,21 @@
-import * as React from 'react';
-import PropTypes from 'prop-types';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import GetBonds from './GetBonds';
-import GetEquities from './GetEquities';
-import { color } from '@mui/system';
-import BondTabs from './Bond Tabs/BondsTabs';
-import EquityTabs from './Equity Tabs/EquityTabs';
-
+import * as React from "react";
+import PropTypes from "prop-types";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import GetBonds from "./GetBonds";
+import GetEquities from "./GetEquities";
+import { color } from "@mui/system";
+import BondTabs from "./Bond Tabs/BondsTabs";
+import EquityTabs from "./Equity Tabs/EquityTabs";
+import { useState, useEffect } from "react";
+import { TabList } from "@mui/lab";
+import { useTabs } from "@mui/base";
+import { AppBar } from "@mui/material";
+// import React from 'react';
 
 function TabPanel(props) {
-  
   const { children, value, index, ...other } = props;
 
   return (
@@ -33,6 +36,7 @@ function TabPanel(props) {
 }
 
 TabPanel.propTypes = {
+
   children: PropTypes.node,
   index: PropTypes.number.isRequired,
   value: PropTypes.number.isRequired,
@@ -41,32 +45,76 @@ TabPanel.propTypes = {
 function a11yProps(index) {
   return {
     id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
+    "aria-controls": `simple-tabpanel-${index}`,
   };
 }
 
+
+
 export default function BasicTabs() {
-  const [value, setValue] = React.useState(0);
+  let [value, setValue] = React.useState(0);
+  let [isSelected , setSelected] = React.useState(false);
+  let [equitiesSelected , setequitiesSelected] = React.useState(true);
+  let [bondsSelected , setbondsSelected] = React.useState(false);
+  
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
+    setSelected(isSelected = !isSelected);
+    console.log(isSelected);
+    console.log(newValue);
+
   };
 
+  useEffect(() => {
+    setequitiesSelected(equitiesSelected => {
+      equitiesSelected = !equitiesSelected;
+    })
+  },[bondsSelected]);
+
+
+  useEffect(() => {
+    setbondsSelected(bondsSelected => {
+      bondsSelected = !bondsSelected;
+    })
+  },[equitiesSelected]);
+
   return (
-    <Box sx={{ width: '100%'}}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider'}}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" TabIndicatorProps={{style: {backgroundColor: "#EEC643"}}}>
-          <Tab label= {<span style={{color : "#EEC643"}}>Equities</span>} {...a11yProps(0)} />
-          <Tab label= {<span style={{color : "#EEC643"}}>Bonds</span>} {...a11yProps(1)} />
-          {/* <Tab label="Item Three" {...a11yProps(2)} /> */}
+    <Box >
+      <AppBar sx={{background : "transparent"}} position = "right">
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          aria-label="basic tabs example"
+          TabIndicatorProps={{ style: { backgroundColor: "#EEC643"} }}
+        >
+          <Tab
+            label={<span style={{ color: "#EEC643" }}>Equities</span>}
+            {...a11yProps(0)}
+            onClick = {() => {
+              setequitiesSelected(true);
+             }}
+          />
+          <Tab
+            label={<span style={{ color: "#EEC643" }}>Bonds</span>}
+            {...a11yProps(1)}
+            onClick = {() => 
+            {setbondsSelected(true)}}
+          />
         </Tabs>
+        {/* <TabPanel value={value} index={0}>
+        <EquityTabs/>
+      </TabPanel>
+       <TabPanel value={value} index={1}>
+        <BondTabs/>
+       </TabPanel> */}
+      </AppBar>
+      <Box>
+        {equitiesSelected && <EquityTabs/>}
+        {bondsSelected && <BondTabs/>}
       </Box>
-      <TabPanel value={value} index={0}>
-        {/* <EquityTabs/> */}
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-      {/* <BondTabs/> */}
-      </TabPanel>
+      
+      {/* {equitiesSelected == true ? <BondTabs/>: <EquityTabs/>}  */}
     </Box>
   );
 }

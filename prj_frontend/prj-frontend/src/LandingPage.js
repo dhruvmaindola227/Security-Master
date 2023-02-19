@@ -28,9 +28,9 @@ function LandingPage() {
         <Box ml = {"auto"} pt = {0}>
           <Typography sx={{color : "#EEC643"}}> SECURITY MASTER </Typography>
         </Box>
-        <Box ml = {"auto"} pt = {4}>
+        {/* <Box ml = {"auto"} pt = {0}>
           <TabBar></TabBar>
-        </Box>
+        </Box> */}
       </Toolbar>
     </AppBar>
     </>

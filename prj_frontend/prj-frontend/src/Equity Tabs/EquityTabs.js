@@ -7,7 +7,7 @@ const EquityTabs = () => {
   return (
     <div>
       <Tabs variant="fullWidth">
-        <Tab label="Security Summary" wrapped></Tab>
+        <Tab label="Security Summary" wrapped ></Tab>
         <Tab label="Security Identifier" wrapped></Tab>
         <Tab label="Security Details" wrapped></Tab>
         <Tab label="Risk" wrapped></Tab>
