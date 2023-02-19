@@ -10,9 +10,9 @@ import EquityTabs from './Equity Tabs/EquityTabs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
     <LandingPage/>
     <TabBar/>
-  </React.StrictMode>
+  </>
 );
 

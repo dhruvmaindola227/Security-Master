@@ -8,35 +8,35 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { Card } from "@mui/material";
 
 const TableViewData = ({ tabledata }) => {
+  // const allKeys = Object.keys(tabledata[0]);
+  console.log(tabledata[0]);
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
-        <TableHead>
+      <Table>
+        {/* <TableHead>
           <TableRow>
-            <TableCell>security name</TableCell>
-            <TableCell align="right">has position</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          <>
-            {tabledata.map((value, index) => {
-              return (
-                <TableRow
-                  key={index}
-                  sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
-                >
-                  <TableCell component="th" scope="row">
-                    {value.securityName}
-                  </TableCell>
-                  <TableCell align="right">
-                    {String(value.hasPosition).toUpperCase()}
-                  </TableCell>
-                </TableRow>
-              );
+            {allKeys.map((value, index) => {
+              return <TableCell>{value}</TableCell>;
             })}
-          </>
+          </TableRow>
+        </TableHead> */}
+
+        <TableBody>
+          {tabledata.map((value, index) => {
+            // const allKeys = Object.keys(value);
+            const allValues = Object.values(value);
+            console.log(allValues);
+            return (
+              <div style={{ backgroundColor: "grey", margin: "10px" }}>
+                {allValues.map((value, index) => {
+                  return <TableCell>{value}</TableCell>;
+                })}
+              </div>
+            );
+          })}
         </TableBody>
       </Table>
     </TableContainer>
