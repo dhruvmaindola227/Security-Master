@@ -60,7 +60,7 @@ export default function BasicTabs() {
 
   return (
     <Box>
-      <AppBar sx={{ bgcolor: "#141414" }} position="sticky">
+      <AppBar sx={{ bgcolor: "#50514F" }} position="sticky">
         <Tabs
           value={value}
           onChange={handleChange}
@@ -72,7 +72,6 @@ export default function BasicTabs() {
             label={
               <span style={{ color: "#EEC643", width: "50%" }}>Equities</span>
             }
-            // {...a11yProps(0)}
             onClick={() => {
               setequitiesSelected(true);
               setbondsSelected(false);
@@ -82,7 +81,6 @@ export default function BasicTabs() {
             label={
               <span style={{ color: "#EEC643", width: "50%" }}>Bonds</span>
             }
-            // {...a11yProps(1)}
             onClick={() => {
               setbondsSelected(true);
               setequitiesSelected(false);
@@ -94,8 +92,6 @@ export default function BasicTabs() {
         {equitiesSelected && <EquityTabs />}
         {bondsSelected && <BondTabs />}
       </Box>
-
-      {/* {equitiesSelected == true ? <BondTabs/>: <EquityTabs/>}  */}
     </Box>
   );
 }

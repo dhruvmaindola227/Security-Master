@@ -1,24 +1,36 @@
 import React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import { WidthFull } from "@mui/icons-material";
 
-const BondTabs = () => {
+const EquityTabs = () => {
+  let [currentValue, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
   return (
     <div>
-      <Tabs variant="fullWidth">
-        <Tab label="Security Summary" wrapped></Tab>
-        <Tab label="Security Identifier" wrapped></Tab>
-        <Tab label="Security Details" wrapped></Tab>
-        <Tab label="Risk" wrapped></Tab>
-        <Tab label="Regulatory details" wrapped></Tab>
-        <Tab label="Reference Data" wrapped></Tab>
-        <Tab label="Put Schedule" wrapped></Tab>
-        <Tab label="Pricing and Analytics" wrapped></Tab>
-        <Tab label="Call Schedule" wrapped></Tab>
+      <Tabs
+        variant="fullWidth"
+        value={currentValue}
+        onChange={handleChange}
+        TabIndicatorProps={{ style: { backgroundColor: "#02111B" } }}
+        sx = {{bgcolor : "#D3D0CB"}}
+      >
+        <Tab label={<span style={{ color: "#02111B" }}>Secruity Summary</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Secruity Identifier</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Secruity Details</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Risk</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Regulatory Details</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Reference Data</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Pricing Details</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Divident History</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Divident History</span>}></Tab>
+
       </Tabs>
     </div>
   );
 };
 
-export default BondTabs;
+export default EquityTabs;

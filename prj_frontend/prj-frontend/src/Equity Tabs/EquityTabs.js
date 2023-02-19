@@ -3,7 +3,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 
 const EquityTabs = () => {
-  let [value, setValue] = React.useState(0);
+  let [currentValue, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -13,20 +13,19 @@ const EquityTabs = () => {
     <div>
       <Tabs
         variant="fullWidth"
-        value={value}
+        value={currentValue}
         onChange={handleChange}
-        TabIndicatorProps={{ style: { backgroundColor: "#EEC643" } }}
-        sx = {{bgcolor : "#50514F"}}
+        TabIndicatorProps={{ style: { backgroundColor: "#02111B" } }}
+        sx = {{bgcolor : "#D3D0CB"}}
       >
-        <Tab label={<span style={{ color: "#EEC643" }}>Secruity Summary</span>}></Tab>
-        <Tab label={<span style={{ color: "#EEC643" }}>Secruity Identifier</span>}></Tab>
-        <Tab label={<span style={{ color: "#EEC643" }}>Secruity Details</span>}></Tab>
-        <Tab label={<span style={{ color: "#EEC643" }}>Risk</span>}></Tab>
-        <Tab label={<span style={{ color: "#EEC643" }}>Regulatory Details</span>}></Tab>
-        <Tab label={<span style={{ color: "#EEC643" }}>Reference Data</span>}></Tab>
-        <Tab label={<span style={{ color: "#EEC643" }}>Pricing Details</span>}></Tab>
-        <Tab label={<span style={{ color: "#EEC643" }}>Divident History</span>}></Tab>
-        
+        <Tab label={<span style={{ color: "#02111B" }}>Secruity Summary</span>}> </Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Secruity Identifier</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Secruity Details</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Risk</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Regulatory Details</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Reference Data</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Pricing Details</span>}></Tab>
+        <Tab label={<span style={{ color: "#02111B" }}>Divident History</span>}></Tab>
       </Tabs>
     </div>
   );
