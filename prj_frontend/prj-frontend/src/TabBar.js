@@ -7,6 +7,8 @@ import Box from '@mui/material/Box';
 import GetBonds from './GetBonds';
 import GetEquities from './GetEquities';
 import { color } from '@mui/system';
+import BondTabs from './Bond Tabs/BondsTabs';
+import EquityTabs from './Equity Tabs/EquityTabs';
 
 
 function TabPanel(props) {
@@ -60,13 +62,10 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        {/* <GetBonds/> */}
+        {/* <EquityTabs/> */}
       </TabPanel>
       <TabPanel value={value} index={1}>
-      {/* <GetEquities/> */}
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        Item Three
+      {/* <BondTabs/> */}
       </TabPanel>
     </Box>
   );

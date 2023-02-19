@@ -6,6 +6,7 @@ import GetEquities from './GetEquities';
 import GetBonds from './GetBonds';
 import TabBar from './TabBar';
 import LandingPage from './LandingPage';
+import EquityTabs from './Equity Tabs/EquityTabs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,7 @@ root.render(
     {/* <GetEquities /> */}
     {/* <App /> */}
     <LandingPage/>
-    <App></App>
+    {/* <App></App> */}
     {/* <TabBar/> */}
     {/* <GetBonds/> */}
   </React.StrictMode>
