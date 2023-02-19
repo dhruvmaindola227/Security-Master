@@ -78,5 +78,82 @@ public class BondController : ControllerBase
         }
         return Ok(true);
     }
+
+
+
+
+
+  [HttpGet("b-sec-summary")]
+    public IActionResult GetSecSumm()
+    {
+        var equity = this._DBContext.BSecSumms.ToList();
+        return Ok(equity);
+    }
+
+      [HttpGet("b-sec-identifier")]
+    public IActionResult GetSecIdt()
+    {
+        var equity = this._DBContext.BSecIdens.ToList();
+        return Ok( equity);
+    }
+
+       [HttpGet("b-sec-details")]
+    public IActionResult GetSecDetl()
+    {
+        var equity = this._DBContext.BSecDetls.ToList();
+        return Ok( equity);
+    }
+
+
+       [HttpGet("b-risk")]
+    public IActionResult GetSecRisk()
+    {
+        var equity = this._DBContext.BRisks.ToList();
+        return Ok( equity);
+    }
+
+
+
+       [HttpGet("b-reg-details")]
+    public IActionResult GetSecRegDetl()
+    {
+        var equity = this._DBContext.BRegDetls.ToList();
+        return Ok( equity);
+    }
+
+
+       [HttpGet("b-ref-data")]
+    public IActionResult GetSecRefDatum()
+    {
+        var equity = this._DBContext.BRefrData.ToList();
+        return Ok( equity);
+    }
+
+
+        [HttpGet("b-put-schedule")]
+    public IActionResult GetSecPutSch()
+    {
+        var equity = this._DBContext.BPutSchdls.ToList();
+        return Ok(equity);
+    }
+
+
+        [HttpGet("b-prc-anl")]
+    public IActionResult GetSecPrcAnl()
+    {
+        var equity = this._DBContext.BPricingDetls.ToList();
+        return Ok(equity);
+    }
+
+    
+
+         [HttpGet("b-call-schedules")]
+    public IActionResult GetSecCallSch()
+    {
+        var equity = this._DBContext.BCallSchdles.ToList();
+        return Ok( equity);
+    }
+
+
 }
 

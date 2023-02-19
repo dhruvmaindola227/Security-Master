@@ -16,7 +16,7 @@ public class EquityController : ControllerBase
         this._DBContext = dbContext;
     }
 
-    [HttpGet(Name = "GetEquities")]
+    [HttpGet(Name = "Getall")]
     public IActionResult GetAllEquities()
     {
       var equities = this._DBContext.Equities.ToList();
@@ -76,6 +76,69 @@ public class EquityController : ControllerBase
             throw;
         }
         return Ok(true);
+    }
+
+
+     [HttpGet("e-sec-summary")]
+    public IActionResult GetSecSumm()
+    {
+        var equity = this._DBContext.ESecSumms;
+        return Ok( equity);
+    }
+
+      [HttpGet("e-sec-identifier")]
+    public IActionResult GetSecIdt()
+    {
+        var equity = this._DBContext.ESecIdens;
+        return Ok( equity);
+    }
+
+       [HttpGet("e-sec-details")]
+    public IActionResult GetSecDetl()
+    {
+        var equity = this._DBContext.ESecDetls;
+        return Ok( equity);
+    }
+
+
+       [HttpGet("e-risk")]
+    public IActionResult GetSecRisk()
+    {
+        var equity = this._DBContext.ERisks;
+        return Ok( equity);
+    }
+
+
+
+       [HttpGet("e-reg-details")]
+    public IActionResult GetSecRegDetl()
+    {
+        var equity = this._DBContext.ERegDetls;
+        return Ok( equity);
+    }
+
+
+       [HttpGet("e-ref-data")]
+    public IActionResult GetSecRefDatum()
+    {
+        var equity = this._DBContext.ERefrData;
+        return Ok( equity);
+    }
+
+
+     [HttpGet("e-price-details")]
+    public IActionResult GetSecPric()
+    {
+        var equity = this._DBContext.EPricDetls;
+        return Ok(equity);
+    }
+    
+
+         [HttpGet("e-div-history")]
+    public IActionResult GetSecDivHis()
+    {
+        var equity = this._DBContext.EDiviHists;
+        return Ok( equity);
     }
 
 
