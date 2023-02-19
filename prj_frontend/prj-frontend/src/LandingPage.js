@@ -17,6 +17,7 @@ import { height } from "@mui/system";
 import { Margin } from "@mui/icons-material";
 import { Tab, Tabs } from "@mui/material";
 import TabBar from './TabBar'
+import GetEquities from "./GetBonds";
 
 const pages = ["Products", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -50,15 +51,11 @@ function ResponsiveAppBar() {
         <Box m={1} pt={1}>
           <img src={companyLogo} width={"200px"} height={"45px"}></img>
         </Box>
-        <Box ml = {"auto"} pt = {1}>
+        <Box ml = {"auto"} pt = {0}>
           <Typography sx={{color : "#EEC643"}}> SECURITY MASTER </Typography>
         </Box>
-        <Box ml = {"auto"} pt = {5}>
+        <Box ml = {"auto"} pt = {4}>
           <TabBar></TabBar>
-        {/* <Tabs >
-            <Tab label = {<span style={{color : "#EEC643"}}>Equities</span>}></Tab>
-            <Tab label = {<span style={{color : "#EEC643" }}>Bonds</span>}></Tab>
-        </Tabs> */}
         </Box>
       </Toolbar>
     </AppBar>
