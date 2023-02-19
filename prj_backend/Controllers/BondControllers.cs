@@ -78,8 +78,5 @@ public class BondController : ControllerBase
         }
         return Ok(true);
     }
-
-
-
 }
 
