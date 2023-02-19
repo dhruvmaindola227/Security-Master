@@ -80,34 +80,32 @@ export default function BasicTabs() {
   },[equitiesSelected]);
 
   return (
-    <Box >
-      <AppBar sx={{background : "transparent"}} position = "right">
+    <Box>
+      <AppBar sx={{bgcolor : "#141414"}} position = "right">
         <Tabs
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
-          TabIndicatorProps={{ style: { backgroundColor: "#EEC643"} }}
+          TabIndicatorProps={{ style: { backgroundColor: "#EEC643"}}}
+          // sx = {{width : "100%"}}
+          variant = "fullWidth"
+
         >
           <Tab
-            label={<span style={{ color: "#EEC643" }}>Equities</span>}
+            label={<span style={{ color: "#EEC643"  , width : "50%"}}>Equities</span>}
             {...a11yProps(0)}
             onClick = {() => {
               setequitiesSelected(true);
              }}
           />
           <Tab
-            label={<span style={{ color: "#EEC643" }}>Bonds</span>}
+            label={<span style={{ color: "#EEC643" , width : "50%" }}>Bonds</span>}
             {...a11yProps(1)}
             onClick = {() => 
             {setbondsSelected(true)}}
+            
           />
         </Tabs>
-        {/* <TabPanel value={value} index={0}>
-        <EquityTabs/>
-      </TabPanel>
-       <TabPanel value={value} index={1}>
-        <BondTabs/>
-       </TabPanel> */}
       </AppBar>
       <Box>
         {equitiesSelected && <EquityTabs/>}

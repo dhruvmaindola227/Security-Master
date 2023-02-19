@@ -19,7 +19,7 @@ function LandingPage() {
     <>
     <AppBar
       position="sticky"
-      style={{ backgroundColor: "#141414", height: "80px" }}
+      style={{ backgroundColor: "#141414", height: "60px" }}
     >
       <Toolbar >
         <Box m={1} pt={1}>
