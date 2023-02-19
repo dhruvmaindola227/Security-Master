@@ -15,14 +15,13 @@ const EquityTabs = () => {
     setValue(newValue);
   };
 
-  const [equityData , setData] = React.useState([]);
+  const [equityData , setData] = React.useState([""]);
   const result = async () => {
     await axios.get("http://localhost:5144/getBond/b-sec-summary")
     .then((response) => {
         setData(response.data);
         console.log("this is message  " , response , result["data"]);
     });
-
 }
 
 React.useEffect(() => {
@@ -30,7 +29,7 @@ React.useEffect(() => {
 },[]); 
 
   return (
-    <div>
+    <>
       <AppBar position="sticky">
         <Tabs
           variant="fullWidth"
@@ -68,7 +67,7 @@ React.useEffect(() => {
         </Tabs>
       </AppBar>
       <TableViewData tabledata={equityData}/>
-    </div>
+    </>
   );
 };
 

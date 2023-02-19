@@ -11,18 +11,18 @@ import { useState, useEffect } from "react";
 import { Card } from "@mui/material";
 
 const TableViewData = ({ tabledata }) => {
-  // const allKeys = Object.keys(tabledata[0]);
+  const allKeys = Object.keys(tabledata[0]);
   console.log(tabledata[0]);
   return (
     <TableContainer component={Paper}>
       <Table>
-        {/* <TableHead>
+        <TableHead>
           <TableRow>
             {allKeys.map((value, index) => {
-              return <TableCell>{value}</TableCell>;
+              return <TableCell key={index}>{value}</TableCell>;
             })}
           </TableRow>
-        </TableHead> */}
+        
 
         <TableBody>
           {tabledata.map((value, index) => {
@@ -31,13 +31,16 @@ const TableViewData = ({ tabledata }) => {
             console.log(allValues);
             return (
               <div style={{ backgroundColor: "grey", margin: "10px" }}>
-                {allValues.map((value, index) => {
-                  return <TableCell>{value}</TableCell>;
+                <TableRow>
+                {allValues.map((val, ind) => {
+                  return <TableCell>{val}</TableCell>;
                 })}
+                </TableRow>
               </div>
             );
           })}
         </TableBody>
+        </TableHead>
       </Table>
     </TableContainer>
   );
