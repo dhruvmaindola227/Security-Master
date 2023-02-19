@@ -59,7 +59,7 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box>
+    <Box >
       <AppBar sx={{ bgcolor: "#50514F" }} position="sticky">
         <Tabs
           value={value}

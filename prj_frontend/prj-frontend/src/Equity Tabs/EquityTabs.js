@@ -1,6 +1,9 @@
 import React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
+import { TabPanel } from "@mui/lab";
+import GetBonds from "./../GetBonds";
+import { AppBar } from "@mui/material";
 
 const EquityTabs = () => {
   let [currentValue, setValue] = React.useState(0);
@@ -11,6 +14,9 @@ const EquityTabs = () => {
 
   return (
     <div>
+      <AppBar position="sticky">
+
+      
       <Tabs
         variant="fullWidth"
         value={currentValue}
@@ -27,6 +33,10 @@ const EquityTabs = () => {
         <Tab label={<span style={{ color: "#02111B" }}>Pricing Details</span>}></Tab>
         <Tab label={<span style={{ color: "#02111B" }}>Divident History</span>}></Tab>
       </Tabs>
+
+      </AppBar>
+        <GetBonds/>
+        
     </div>
   );
 };
