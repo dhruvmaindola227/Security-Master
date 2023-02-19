@@ -14,7 +14,7 @@ root.render(
     {/* <GetEquities /> */}
     {/* <App /> */}
     <LandingPage/>
-    <TabBar/>
+    {/* <TabBar/> */}
     {/* <GetBonds/> */}
   </React.StrictMode>
 );
