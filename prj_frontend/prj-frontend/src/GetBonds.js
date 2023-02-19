@@ -14,7 +14,7 @@ import {useState , useEffect} from 'react';
 function GetEquities(){
     const [bondData , setData] = React.useState([]);
     const result = async () => {
-        await axios.get("http://localhost:5144/getbonds")
+        await axios.get("http://localhost:5144/getbond")
         .then((response) => {
             setData(response.data);
             console.log("this is message  " , response , result);
