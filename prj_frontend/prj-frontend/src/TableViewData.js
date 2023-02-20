@@ -24,6 +24,7 @@ import { Stack } from "@mui/system";
 
 const TableViewData = (props) => {
   const allKeys = Object.keys(props.tabledata[0]);
+  // console.log("allKeys" +   allKeys);
   const [open, setOpen] = React.useState(false);
   let [updateSid, setUpdateSid] = React.useState(-1);
   const [udata, setData] = React.useState({});
@@ -31,7 +32,7 @@ const TableViewData = (props) => {
   const getData = async (id) => {
     // console.log("id" + id);
     // console.log("prop " + props.type);
-    await fetch(`http://localhost:5144/get${props.type}/GetBondById/${id}`)
+    await fetch(`http://localhost:5144/get${props.type}/Get${props.type}ById/${id}`)
       .then((data) => data.json())
       .then((data) => setData(data));
     console.log(udata);
