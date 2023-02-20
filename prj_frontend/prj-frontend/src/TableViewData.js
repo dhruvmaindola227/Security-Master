@@ -16,6 +16,7 @@ const TableViewData = ({ tabledata }) => {
   // console.log(tabledata[0]);
   const columns = tabledata.length > 0 ? Object.keys(tabledata[0]) : [];
   const [open, setOpen] = React.useState(false);
+  const [updateSid, setUpdateSid] = React.useState(null);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -47,9 +48,11 @@ const TableViewData = ({ tabledata }) => {
             const allValues = Object.values(value);
             // console.log(allValues);
             return (
-              <TableRow onClick={() => {
-                console.log(index);
+              <TableRow onClick={(event) => {
+                console.log(event.target.parentNode.firstChild.innerText);
                 setOpen(true);
+                setUpdateSid(event.target.parentNode.firstChild.innerText);
+                
               }}>
                 
               
@@ -71,8 +74,7 @@ const TableViewData = ({ tabledata }) => {
                   <DialogTitle>Subscribe</DialogTitle>
                   <DialogContent>
                     <DialogContentText>
-                      To subscribe to this website, please enter your email
-                      address here. We will send updates occasionally.
+                      Form for security ID {updateSid}
                     </DialogContentText>
                     <TextField
                       autoFocus
