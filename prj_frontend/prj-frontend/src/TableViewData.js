@@ -12,7 +12,7 @@ import { Card } from "@mui/material";
 
 const TableViewData = ({ tabledata }) => {
   const allKeys = Object.keys(tabledata[0]);
-  console.log(tabledata[0]);
+  // console.log(tabledata[0]);
   const columns = tabledata.length > 0 ? Object.keys(tabledata[0]) : [];
   return (
     // <table>
@@ -38,30 +38,27 @@ const TableViewData = ({ tabledata }) => {
         <TableHead>
           <TableRow>
             {allKeys.map((value, index) => {
-              return <TableCell key={index}>{value}</TableCell>;
+              return <TableCell key={index}><strong>{value.toUpperCase()}</strong></TableCell>;
             })}
           </TableRow>
-          </TableHead>
+        </TableHead>
 
         <TableBody>
           {tabledata.map((value, index) => {
-            
             // const allKeys = Object.keys(value);
             const allValues = Object.values(value);
-            console.log(allValues);
+            // console.log(allValues);
             return (
-             
-                <TableRow>
-                {allValues.map((val, ind  ) => {
-                  return  <TableCell key={ind}>{val}</TableCell>
-                  
+              <TableRow >
+                {allValues.map((val, ind) => {
+                  return <TableCell key={ind}> 
+                  {val == ""?"-":String(val)}
+                  </TableCell>;
                 })}
-                </TableRow>
-             
+              </TableRow>
             );
           })}
         </TableBody>
-       
       </Table>
     </TableContainer>
   );

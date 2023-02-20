@@ -15,18 +15,49 @@ const EquityTabs = () => {
     setValue(newValue);
   };
 
-  const [equityData , setData] = React.useState([""]);
-  const result = async () => {
-    await axios.get("http://localhost:5144/getBond/b-sec-summary")
-    .then((response) => {
-        setData(response.data);
-        console.log("this is message  " , response , result["data"]);
-    });
-}
+ 
 
+  const [equityData , setData] = React.useState([""]);
+  const result = async (url) => {
+       await axios.get(url)
+        .then((response) => {
+            setData(response.data);
+            console.log("this is message  " , response , result["data"]);
+        });
+    }
+
+    
 React.useEffect(() => {
-  result();
-},[]); 
+  switch (currentValue) {
+    case 0:
+      result("http://localhost:5144/getequities/e-sec-summary");
+      break;
+    case 1:
+      result("http://localhost:5144/getequities/e-sec-identifier");
+      break;
+    case 2: 
+      result("http://localhost:5144/getequities/e-sec-details");
+      break;
+    case 3: 
+      result("http://localhost:5144/getequities/e-risk");
+      break;  
+    case 4: 
+      result("http://localhost:5144/getequities/e-reg-details");
+      break;
+    case 5: 
+      result("http://localhost:5144/getequities/e-ref-data");
+      break;
+    case 6: 
+      result("http://localhost:5144/getequities/e-price-details");
+      break;
+    case 7: 
+      result("http://localhost:5144/getequities/e-div-history");
+      break;  
+
+    default:
+      break;
+  }
+},[currentValue]); 
 
   return (
     <>
