@@ -22,7 +22,7 @@ const EquityTabs = (props) => {
        await axios.get(url)
         .then((response) => {
             setData(response.data);
-            console.log("this is message  " , response , result["data"]);
+            // console.log("this is message  " , response , result["data"]);
         });
     }
 

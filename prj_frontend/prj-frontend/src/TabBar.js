@@ -22,7 +22,7 @@ export default function BasicTabs() {
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
-    console.log(newValue);
+    // console.log(newValue);
   };
 
   return (
@@ -56,7 +56,7 @@ export default function BasicTabs() {
         </Tabs>
       </AppBar>
       <Box>
-        {equitiesSelected && <EquityTabs type="equity"/>}
+        {equitiesSelected && <EquityTabs type="equities"/>}
         {bondsSelected && <BondTabs type='bond' />}
       </Box>
     </Box>
