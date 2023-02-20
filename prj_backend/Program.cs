@@ -10,11 +10,26 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
+
+    // options.AddDefaultPolicy(
+    //     builder =>
+    //     {
+    //         builder.WithOrigins("http://localhost:5144", "http://localhost:3000")
+    //                             .AllowAnyHeader()
+    //                             .AllowAnyMethod();
+    //     });
     options.AddPolicy(corsPolicyName, policy =>
     {
         policy.WithOrigins("http://localhost:5144");
         policy.WithOrigins("http://localhost:3000");
+        policy.AllowAnyHeader().AllowAnyMethod();
     });
+    // options.AddDefaultPolicy(
+    //     builder => {
+    //         builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+    //     }
+    // );
+
 });
 
 builder.Services.AddDbContext<SecMas_DC9Context>(options => {
