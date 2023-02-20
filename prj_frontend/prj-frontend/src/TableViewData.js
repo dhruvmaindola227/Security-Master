@@ -17,17 +17,29 @@ import {
   DialogContentText,
   DialogTitle,
   Slide,
+  Snackbar,
   TextField,
   Typography,
 } from "@mui/material";
 import { Stack } from "@mui/system";
 
+
+
 const TableViewData = (props) => {
   const allKeys = Object.keys(props.tabledata[0]);
-  // console.log("allKeys" +   allKeys);
+  const [openSnackBar, setOpenSnackBar] = React.useState(false);
   const [open, setOpen] = React.useState(false);
   let [updateSid, setUpdateSid] = React.useState(-1);
   const [udata, setData] = React.useState({});
+
+  const handleCloseSnackBar = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+
+    setOpen(false);
+  };
+
 
   const removeElement = async (id) => {
     fetch(`http://localhost:5144/get${props.type}/delete${props.type}/${id}`, {
@@ -35,7 +47,14 @@ const TableViewData = (props) => {
       headers: {
         "content-type": "application/json",
         }
-    }).then((res) => console.log(res.text));
+    }).then((res) => 
+
+    {console.log(res);
+      if(res.status == 200){
+        console.log("HEREEEEEEEEE");
+        setOpenSnackBar(true);
+      }
+    });
   };
 
   const getData = async (id) => {
@@ -116,7 +135,9 @@ const TableViewData = (props) => {
             variant="outlined"
             onClick={() => {
               removeElement(updateSid);
+              handleClose();
             }}
+
           >
             Delete
           </Button>
@@ -125,7 +146,15 @@ const TableViewData = (props) => {
           </Button>
         </DialogActions>
       </Dialog>
-    </>
+      {
+        openSnackBar ? <Snackbar
+        open={openSnackBar}
+        autoHideDuration={6000}
+        onClose={handleClose}
+        message = "deleted"
+      /> : <div></div>
+      }
+</>
   );
 };
 
