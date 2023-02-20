@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 import companyLogo from "./images/ivp-footer-logo.png";
 import { height } from "@mui/system";
 import { Margin } from "@mui/icons-material";
-import { Tab, Tabs } from "@mui/material";
+import { Button, Tab, Tabs } from "@mui/material";
 import TabBar from './TabBar'
 
 
@@ -22,15 +22,18 @@ function LandingPage() {
       style={{ backgroundColor: "#141414", height: "60px" }}
     >
       <Toolbar >
-        <Box m={1} pt={1}>
+        <Box m={1}>
           <img src={companyLogo} width={"200px"} height={"45px"}></img>
         </Box>
-        <Box ml = {"auto"} pt = {0}>
+       
+        <Box ml = {"auto"}>
           <Typography sx={{color : "#EEC643"}}> SECURITY MASTER </Typography>
         </Box>
-        {/* <Box ml = {"auto"} pt = {0}>
-          <TabBar></TabBar>
-        </Box> */}
+        <Box ml = {"auto"}>
+          <Button variant = "contained" sx = {{backgroundColor : "#EEC643" , color : "black"}}>
+            create equity
+          </Button>
+        </Box>
       </Toolbar>
     </AppBar>
     </>

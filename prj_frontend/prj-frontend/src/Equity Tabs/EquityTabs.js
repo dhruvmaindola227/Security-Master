@@ -70,17 +70,17 @@ React.useEffect(() => {
           sx={{ bgcolor: "#D3D0CB" }}
         >
           <Tab
-            label={<span style={{ color: "#02111B" }}>Secruity Summary</span>}
+            label={<span style={{ color: "#02111B" }}>Security Summary</span>}
           >
             {" "}
           </Tab>
           <Tab
             label={
-              <span style={{ color: "#02111B" }}>Secruity Identifier</span>
+              <span style={{ color: "#02111B" }}>Security Identifier</span>
             }
           ></Tab>
           <Tab
-            label={<span style={{ color: "#02111B" }}>Secruity Details</span>}
+            label={<span style={{ color: "#02111B" }}>Security Details</span>}
           ></Tab>
           <Tab label={<span style={{ color: "#02111B" }}>Risk</span>}></Tab>
           <Tab
