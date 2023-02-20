@@ -5,6 +5,7 @@ namespace prj_backend.Model
 {
     public partial class ESecSumm
     {
+        public int SecurityId { get; set; }
         public string SecurityName { get; set; } = null!;
         public string? SecurityDescription { get; set; }
         public bool? HasPosition { get; set; }

@@ -5,6 +5,7 @@ namespace prj_backend.Model
 {
     public partial class EDiviHist
     {
+        public int SecurityId { get; set; }
         public string? DividendType { get; set; }
         public string? Frequency { get; set; }
         public double? DividendAmount { get; set; }

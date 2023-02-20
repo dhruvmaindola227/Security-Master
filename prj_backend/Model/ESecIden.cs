@@ -5,6 +5,7 @@ namespace prj_backend.Model
 {
     public partial class ESecIden
     {
+        public int SecurityId { get; set; }
         public string? Cusip { get; set; }
         public string? Isin { get; set; }
         public string? Sedol { get; set; }

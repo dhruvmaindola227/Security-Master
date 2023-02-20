@@ -5,6 +5,7 @@ namespace prj_backend.Model
 {
     public partial class BRefrDatum
     {
+        public int SecurityId { get; set; }
         public string? BloombergIndustryGroup { get; set; }
         public string? BloombergIndustrySubGroup { get; set; }
         public string? BloombergIndustrySector { get; set; }

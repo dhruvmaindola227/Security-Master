@@ -5,6 +5,7 @@ namespace prj_backend.Model
 {
     public partial class ERisk
     {
+        public int SecurityId { get; set; }
         public double? AverageVolume20d { get; set; }
         public double? Beta { get; set; }
         public double? ShortInterest { get; set; }

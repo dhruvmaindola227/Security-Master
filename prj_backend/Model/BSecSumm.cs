@@ -5,6 +5,7 @@ namespace prj_backend.Model
 {
     public partial class BSecSumm
     {
+        public int SecurityId { get; set; }
         public string? SecurityDescription { get; set; }
         public string SecurityName { get; set; } = null!;
         public string? AssetType { get; set; }

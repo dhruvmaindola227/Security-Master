@@ -5,6 +5,7 @@ namespace prj_backend.Model
 {
     public partial class BSecDetl
     {
+        public int SecurityId { get; set; }
         public DateTime? FirstCouponDate { get; set; }
         public string? Cap { get; set; }
         public string? Floor { get; set; }

@@ -5,6 +5,7 @@ namespace prj_backend.Model
 {
     public partial class BPricingDetl
     {
+        public int SecurityId { get; set; }
         public double? AskPrice { get; set; }
         public double? HighPrice { get; set; }
         public double? LowPrice { get; set; }

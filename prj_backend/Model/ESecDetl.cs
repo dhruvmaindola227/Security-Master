@@ -5,6 +5,7 @@ namespace prj_backend.Model
 {
     public partial class ESecDetl
     {
+        public int SecurityId { get; set; }
         public bool? IsAdrFlag { get; set; }
         public string? AdrUnderlyingTicker { get; set; }
         public string? AdrUnderlyingCurrency { get; set; }

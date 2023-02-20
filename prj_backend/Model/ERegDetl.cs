@@ -5,6 +5,7 @@ namespace prj_backend.Model
 {
     public partial class ERegDetl
     {
+        public int SecurityId { get; set; }
         public string? PfAssetClass { get; set; }
         public string? PfCountry { get; set; }
         public string? PfCreditRating { get; set; }

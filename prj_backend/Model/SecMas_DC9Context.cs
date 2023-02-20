@@ -42,7 +42,8 @@ namespace prj_backend.Model
         {
             if (!optionsBuilder.IsConfigured)
             {
-
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Server = 192.168.0.13\\\\\\\\sqlexpress,58264; Database = SecMas_DC9; User = sa; Password=sa@12345678");
             }
         }
 
@@ -557,6 +558,8 @@ namespace prj_backend.Model
                     .HasColumnName("Call Date");
 
                 entity.Property(e => e.CallPrice).HasColumnName("Call Price");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
             });
 
             modelBuilder.Entity<BPricingDetl>(entity =>
@@ -576,6 +579,8 @@ namespace prj_backend.Model
                 entity.Property(e => e.LowPrice).HasColumnName("Low Price");
 
                 entity.Property(e => e.OpenPrice).HasColumnName("Open Price");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
             });
 
             modelBuilder.Entity<BPutSchdl>(entity =>
@@ -589,6 +594,8 @@ namespace prj_backend.Model
                     .HasColumnName("Put Date");
 
                 entity.Property(e => e.PutPrice).HasColumnName("Put Price");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
             });
 
             modelBuilder.Entity<BRefrDatum>(entity =>
@@ -630,6 +637,8 @@ namespace prj_backend.Model
                     .HasMaxLength(20)
                     .IsUnicode(false)
                     .HasColumnName("Risk Currency");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
             });
 
             modelBuilder.Entity<BRegDetl>(entity =>
@@ -692,6 +701,8 @@ namespace prj_backend.Model
                     .HasMaxLength(59)
                     .IsUnicode(false)
                     .HasColumnName("PF Sub Asset Class");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
             });
 
             modelBuilder.Entity<BRisk>(entity =>
@@ -701,6 +712,8 @@ namespace prj_backend.Model
                 entity.ToView("b_Risk");
 
                 entity.Property(e => e.MacaulayDuration).HasColumnName("Macaulay Duration");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
 
                 entity.Property(e => e._30dVolatility).HasColumnName("30D Volatility");
 
@@ -763,6 +776,8 @@ namespace prj_backend.Model
                     .IsUnicode(false)
                     .HasColumnName("Reset Frequency");
 
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
+
                 entity.Property(e => e.Spread)
                     .HasMaxLength(100)
                     .IsUnicode(false);
@@ -794,6 +809,8 @@ namespace prj_backend.Model
                     .IsUnicode(false)
                     .HasColumnName("ISIN");
 
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
+
                 entity.Property(e => e.Sedol)
                     .HasMaxLength(20)
                     .IsUnicode(false)
@@ -822,6 +839,8 @@ namespace prj_backend.Model
                     .HasMaxLength(100)
                     .IsUnicode(false)
                     .HasColumnName("Security Description");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
 
                 entity.Property(e => e.SecurityName)
                     .HasMaxLength(50)
@@ -1095,6 +1114,8 @@ namespace prj_backend.Model
                 entity.Property(e => e.Frequency)
                     .HasMaxLength(90)
                     .IsUnicode(false);
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
             });
 
             modelBuilder.Entity<EPricDetl>(entity =>
@@ -1114,6 +1135,8 @@ namespace prj_backend.Model
                 entity.Property(e => e.OpenPrice).HasColumnName("Open Price");
 
                 entity.Property(e => e.PeRatio).HasColumnName("PE Ratio");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
             });
 
             modelBuilder.Entity<ERefrDatum>(entity =>
@@ -1164,6 +1187,8 @@ namespace prj_backend.Model
                     .HasMaxLength(40)
                     .IsUnicode(false)
                     .HasColumnName("Risk Currency");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
 
                 entity.Property(e => e.TradingCurrency)
                     .HasMaxLength(40)
@@ -1231,6 +1256,8 @@ namespace prj_backend.Model
                     .HasMaxLength(40)
                     .IsUnicode(false)
                     .HasColumnName("PF Sub Asset Class");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
             });
 
             modelBuilder.Entity<ERisk>(entity =>
@@ -1242,6 +1269,8 @@ namespace prj_backend.Model
                 entity.Property(e => e.AverageVolume20d).HasColumnName("Average Volume - 20D");
 
                 entity.Property(e => e.ReturnYtd).HasColumnName("Return - YTD");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
 
                 entity.Property(e => e.ShortInterest).HasColumnName("Short Interest");
 
@@ -1274,6 +1303,8 @@ namespace prj_backend.Model
                     .HasMaxLength(20)
                     .IsUnicode(false)
                     .HasColumnName("Pricing Currency");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
 
                 entity.Property(e => e.SettleDays).HasColumnName("Settle Days");
 
@@ -1318,6 +1349,8 @@ namespace prj_backend.Model
                     .IsUnicode(false)
                     .HasColumnName("ISIN");
 
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
+
                 entity.Property(e => e.Sedol)
                     .HasMaxLength(20)
                     .IsUnicode(false)
@@ -1350,6 +1383,8 @@ namespace prj_backend.Model
                     .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("Security Description");
+
+                entity.Property(e => e.SecurityId).HasColumnName("Security Id");
 
                 entity.Property(e => e.SecurityName)
                     .HasMaxLength(50)

@@ -5,6 +5,7 @@ namespace prj_backend.Model
 {
     public partial class ERefrDatum
     {
+        public int SecurityId { get; set; }
         public string? CountryOfIssuance { get; set; }
         public string? Exchange { get; set; }
         public string? Issuer { get; set; }
