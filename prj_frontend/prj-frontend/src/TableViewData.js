@@ -8,8 +8,9 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import IconButton from '@mui/material/IconButton';
+import IconButton from "@mui/material/IconButton";
 import {
+  Box,
   Button,
   Card,
   Dialog,
@@ -17,25 +18,43 @@ import {
   DialogContent,
   DialogContentText,
   DialogTitle,
+  Grid,
+  Modal,
   Slide,
   Snackbar,
   TextField,
   Typography,
 } from "@mui/material";
 import { Stack } from "@mui/system";
-import CloseIcon from '@mui/icons-material/Close';
-
-
+import CloseIcon from "@mui/icons-material/Close";
 
 const TableViewData = (props) => {
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: "90%",
+    bgcolor: "background.paper",
+    border: "2px solid #000",
+    boxShadow: 24,
+    p: 4,
+    height: "80%",
+    overflowY: "scroll",
+  };
+
   const allKeys = Object.keys(props.tabledata[0]);
   const [openSnackBar, setOpenSnackBar] = React.useState(false);
   const [open, setOpen] = React.useState(false);
   let [updateSid, setUpdateSid] = React.useState(-1);
   const [udata, setData] = React.useState({});
 
+  const [isModalOpen, setModalOpen] = useState(false);
 
-  
+  const handleOpenModal = () => setModalOpen(true);
+  const handleCloseModal = () => setModalOpen(false);
+
+  const [updateDataModel, setUpdateDataModel] = useState({});
 
   const handleCloseSnackBar = (event, reason) => {
     // if (reason === 'clickaway') {
@@ -43,7 +62,6 @@ const TableViewData = (props) => {
     // }
     setOpenSnackBar(false);
   };
-
 
   const action = (
     <React.Fragment>
@@ -63,10 +81,10 @@ const TableViewData = (props) => {
       method: "DELETE",
       headers: {
         "content-type": "application/json",
-        }
-    }).then((res) => 
-    {console.log(res);
-      if(res.status == 200){
+      },
+    }).then((res) => {
+      console.log(res);
+      if (res.status == 200) {
         console.log("HEREEEEEEEEE");
         setOpenSnackBar(true);
         props.apiFx();
@@ -81,19 +99,54 @@ const TableViewData = (props) => {
       `http://localhost:5144/get${props.type}/Get${props.type}ById/${id}`
     )
       .then((data) => data.json())
-      .then((data) => setData(data));
+      .then((data) => {
+        setData(data);
+        setUpdateDataModel(data);
+      });
     console.log(udata);
   };
 
-  //   React.useEffect(() => {
-  //     result();
-  // },[]);
-  useEffect(() => {
-    console.log(udata);
-  }, [udata]);
+  useEffect(() => {}, [udata]);
+
   const handleClose = () => {
     setOpen(false);
   };
+
+  const updateTextFields = (event, key) => {
+    setUpdateDataModel({
+      ...updateDataModel,
+      [key]: event.target.value,
+    });
+  };
+
+  useEffect(() => {
+    console.log("new model");
+    console.log(updateDataModel);
+  }, [updateDataModel]);
+
+
+  const updateElement = async (id) => {
+    console.log("IDDDD");
+    console.log(id);
+    fetch(`http://localhost:5144/get${props.type}/update${props.type}/${id}`, {
+      method: "PUT",
+      headers: {
+        "content-type": "application/json",
+      },
+      body : JSON.stringify(updateDataModel)
+    }).then((res) => {
+      console.log(res);
+      if (res.status == 200) {
+        console.log("HEREEEEEEEEE");
+        setOpenSnackBar(false);
+        props.apiFx();
+      }
+    });
+  };
+
+
+
+
   return (
     <>
       <TableContainer component={Paper}>
@@ -141,12 +194,6 @@ const TableViewData = (props) => {
       </TableContainer>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Do you want to Delete or Update data?</DialogTitle>
-        {/* <DialogContent> */}
-        {/* <DialogContentText>
-            Form for security ID, {props.type}
-            {updateSid}
-          </DialogContentText> */}
-        {/* </DialogContent> */}
         <DialogActions>
           <Button
             variant="outlined"
@@ -154,25 +201,60 @@ const TableViewData = (props) => {
               removeElement(updateSid);
               handleClose();
             }}
-
           >
             Delete
           </Button>
-          <Button variant="outlined" onClick={handleClose}>
+          <Button
+            variant="outlined"
+            onClick={() => {
+              setModalOpen(true);
+            }}
+          >
             Update
           </Button>
+          <Modal
+            open={isModalOpen}
+            onClose={handleClose}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+            <Box sx={style}>
+              <Grid container spacing={4}>
+                {Object.keys(udata).map((value, index) => (
+                  <Grid item xs={3} key={index}>
+                    <TextField
+                      label={value}
+                      defaultValue={udata[value]}
+                      onChange={(event) => {
+                        updateTextFields(event, value);
+                      }}
+                    ></TextField>
+                  </Grid>
+                ))}
+                <Button variant="outlined" onClick={() => {
+                  updateElement(updateSid);
+                  handleCloseModal();
+                  handleClose();
+                }}>
+                  SUBMIT
+                </Button>
+              </Grid>
+            </Box>
+          </Modal>
         </DialogActions>
       </Dialog>
-      {
-        openSnackBar ? <Snackbar
-        open={openSnackBar}
-        autoHideDuration={3000}
-        onClose={handleCloseSnackBar}
-        message = "Deleted!"
-        action = {action}
-      /> : <div></div>
-      }
-</>
+      {openSnackBar ? (
+        <Snackbar
+          open={openSnackBar}
+          autoHideDuration={3000}
+          onClose={handleCloseSnackBar}
+          message="Deleted!"
+          action={action}
+        />
+      ) : (
+        <div></div>
+      )}
+    </>
   );
 };
 
