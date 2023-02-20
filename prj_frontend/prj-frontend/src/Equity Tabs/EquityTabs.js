@@ -7,7 +7,7 @@ import { AppBar } from "@mui/material";
 import TableViewData from "../TableViewData";
 import axios from "axios";
 
-const EquityTabs = () => {
+const EquityTabs = (props) => {
   let [currentValue, setValue] = React.useState(0);
   
 
@@ -97,9 +97,10 @@ React.useEffect(() => {
           ></Tab>
         </Tabs>
       </AppBar>
-      <TableViewData tabledata={equityData}/>
+      <TableViewData tabledata={equityData} type={props.type}/>
     </>
   );
 };
 
 export default EquityTabs;
+ 

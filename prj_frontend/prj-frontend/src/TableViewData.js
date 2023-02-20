@@ -11,10 +11,10 @@ import { useState, useEffect } from "react";
 import { Button, Card, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, TextField, Typography } from "@mui/material";
 import { Stack } from "@mui/system";
 
-const TableViewData = ({ tabledata }) => {
-  const allKeys = Object.keys(tabledata[0]);
-  // console.log(tabledata[0]);
-  const columns = tabledata.length > 0 ? Object.keys(tabledata[0]) : [];
+const TableViewData = (props) => {
+  const allKeys = Object.keys(props.tabledata[0]);
+  // console.log(props.tabledata[0]);
+  const columns = props.tabledata.length > 0 ? Object.keys(props.tabledata[0]) : [];
   const [open, setOpen] = React.useState(false);
   const [updateSid, setUpdateSid] = React.useState(null);
 
@@ -43,7 +43,7 @@ const TableViewData = ({ tabledata }) => {
         </TableHead>
 
         <TableBody>
-          {tabledata.map((value, index) => {
+          {props.tabledata.map((value, index) => {
             // const allKeys = Object.keys(value);
             const allValues = Object.values(value);
             // console.log(allValues);
@@ -74,7 +74,7 @@ const TableViewData = ({ tabledata }) => {
                   <DialogTitle>Subscribe</DialogTitle>
                   <DialogContent>
                     <DialogContentText>
-                      Form for security ID {updateSid}
+                      Form for security ID, {props.type}{updateSid}
                     </DialogContentText>
                     <TextField
                       autoFocus

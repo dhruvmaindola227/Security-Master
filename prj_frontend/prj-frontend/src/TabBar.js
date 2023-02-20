@@ -56,8 +56,8 @@ export default function BasicTabs() {
         </Tabs>
       </AppBar>
       <Box>
-        {equitiesSelected && <EquityTabs />}
-        {bondsSelected && <BondTabs />}
+        {equitiesSelected && <EquityTabs type="equity"/>}
+        {bondsSelected && <BondTabs type='bond' />}
       </Box>
     </Box>
   );
