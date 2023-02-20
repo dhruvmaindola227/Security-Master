@@ -8,6 +8,7 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import IconButton from '@mui/material/IconButton';
 import {
   Button,
   Card,
@@ -22,6 +23,7 @@ import {
   Typography,
 } from "@mui/material";
 import { Stack } from "@mui/system";
+import CloseIcon from '@mui/icons-material/Close';
 
 
 
@@ -32,14 +34,29 @@ const TableViewData = (props) => {
   let [updateSid, setUpdateSid] = React.useState(-1);
   const [udata, setData] = React.useState({});
 
-  const handleCloseSnackBar = (event, reason) => {
-    if (reason === 'clickaway') {
-      return;
-    }
 
-    setOpen(false);
+  
+
+  const handleCloseSnackBar = (event, reason) => {
+    // if (reason === 'clickaway') {
+    //   return;
+    // }
+    setOpenSnackBar(false);
   };
 
+
+  const action = (
+    <React.Fragment>
+      <IconButton
+        size="small"
+        aria-label="close"
+        color="inherit"
+        onClick={handleCloseSnackBar}
+      >
+        <CloseIcon fontSize="small" />
+      </IconButton>
+    </React.Fragment>
+  );
 
   const removeElement = async (id) => {
     fetch(`http://localhost:5144/get${props.type}/delete${props.type}/${id}`, {
@@ -48,11 +65,11 @@ const TableViewData = (props) => {
         "content-type": "application/json",
         }
     }).then((res) => 
-
     {console.log(res);
       if(res.status == 200){
         console.log("HEREEEEEEEEE");
         setOpenSnackBar(true);
+        props.apiFx();
       }
     });
   };
@@ -149,9 +166,10 @@ const TableViewData = (props) => {
       {
         openSnackBar ? <Snackbar
         open={openSnackBar}
-        autoHideDuration={6000}
-        onClose={handleClose}
-        message = "deleted"
+        autoHideDuration={3000}
+        onClose={handleCloseSnackBar}
+        message = "Deleted!"
+        action = {action}
       /> : <div></div>
       }
 </>

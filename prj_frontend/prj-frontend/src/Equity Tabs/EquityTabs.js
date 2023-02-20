@@ -9,55 +9,33 @@ import axios from "axios";
 
 const EquityTabs = (props) => {
   let [currentValue, setValue] = React.useState(0);
-  
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
- 
+  const allUrls = [
+    "http://localhost:5144/getequity/e-sec-summary",
+    "http://localhost:5144/getequity/e-sec-identifier",
+    "http://localhost:5144/getequity/e-sec-details",
+    "http://localhost:5144/getequity/e-risk",
+    "http://localhost:5144/getequity/e-reg-details",
+    "http://localhost:5144/getequity/e-ref-data",
+    "http://localhost:5144/getequity/e-price-details",
+    "http://localhost:5144/getequity/e-div-history",
+  ];
 
-  const [equityData , setData] = React.useState([""]);
-  const result = async (url) => {
-       await axios.get(url)
-        .then((response) => {
-            setData(response.data);
-            // console.log("this is message  " , response , result["data"]);
-        });
-    }
+  const [equityData, setData] = React.useState([""]);
+  const result = async () => {
+    await axios.get(allUrls[currentValue]).then((response) => {
+      setData(response.data);
+      // console.log("this is message  " , response , result["data"]);
+    });
+  };
 
-    
-React.useEffect(() => {
-  switch (currentValue) {
-    case 0:
-      result("http://localhost:5144/getequity/e-sec-summary");
-      break;
-    case 1:
-      result("http://localhost:5144/getequity/e-sec-identifier");
-      break;
-    case 2: 
-      result("http://localhost:5144/getequity/e-sec-details");
-      break;
-    case 3: 
-      result("http://localhost:5144/getequity/e-risk");
-      break;  
-    case 4: 
-      result("http://localhost:5144/getequity/e-reg-details");
-      break;
-    case 5: 
-      result("http://localhost:5144/getequity/e-ref-data");
-      break;
-    case 6: 
-      result("http://localhost:5144/getequity/e-price-details");
-      break;
-    case 7: 
-      result("http://localhost:5144/getequity/e-div-history");
-      break;  
-
-    default:
-      break;
-  }
-},[currentValue]); 
+  React.useEffect(() => {
+    result();
+  }, [currentValue]);
 
   return (
     <>
@@ -97,10 +75,9 @@ React.useEffect(() => {
           ></Tab>
         </Tabs>
       </AppBar>
-      <TableViewData tabledata={equityData} type={props.type}/>
+      <TableViewData tabledata={equityData} type={props.type} apiFx = {result} />
     </>
   );
 };
 
 export default EquityTabs;
- 
