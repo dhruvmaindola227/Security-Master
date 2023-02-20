@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Prj.Controllers;
 
 [ApiController]
-[Route("getequities")]
+[Route("getequity")]
 public class EquityController : ControllerBase
 {
     
@@ -24,7 +24,7 @@ public class EquityController : ControllerBase
     }
 
 
-    [HttpGet("GetEquitiesById/{securityId}")]
+    [HttpGet("GetEquityById/{securityId}")]
     public IActionResult GetEquityById(int securityId)
     {
       var equity = this._DBContext.Equities.Where(x => x.SecurityId == securityId).FirstOrDefault();
