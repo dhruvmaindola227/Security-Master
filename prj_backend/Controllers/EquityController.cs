@@ -24,7 +24,7 @@ public class EquityController : ControllerBase
     }
 
 
-    [HttpGet("GetEquityById/{securityId}")]
+    [HttpGet("GetEquitiesById/{securityId}")]
     public IActionResult GetEquityById(int securityId)
     {
       var equity = this._DBContext.Equities.Where(x => x.SecurityId == securityId).FirstOrDefault();
