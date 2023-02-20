@@ -13,7 +13,26 @@ import { Card } from "@mui/material";
 const TableViewData = ({ tabledata }) => {
   const allKeys = Object.keys(tabledata[0]);
   console.log(tabledata[0]);
+  const columns = tabledata.length > 0 ? Object.keys(tabledata[0]) : [];
   return (
+    // <table>
+    //   <thead>
+    //     <tr>
+    //       {columns.map((column, index) => (
+    //         <th key={index}>{column}</th>
+    //       ))}
+    //     </tr>
+    //   </thead>
+    //   <tbody>
+    //     {tabledata.map((row, index) => (
+    //       <tr key={index}>
+    //         {columns.map((column, index) => (
+    //           <td key={index}>{row[column]}</td>
+    //         ))}
+    //       </tr>
+    //     ))}
+    //   </tbody>
+    // </table>
     <TableContainer component={Paper}>
       <Table>
         <TableHead>
@@ -22,25 +41,27 @@ const TableViewData = ({ tabledata }) => {
               return <TableCell key={index}>{value}</TableCell>;
             })}
           </TableRow>
-        
+          </TableHead>
 
         <TableBody>
           {tabledata.map((value, index) => {
+            
             // const allKeys = Object.keys(value);
             const allValues = Object.values(value);
             console.log(allValues);
             return (
-              <div style={{ backgroundColor: "grey", margin: "10px" }}>
+             
                 <TableRow>
-                {allValues.map((val, ind) => {
-                  return <TableCell>{val}</TableCell>;
+                {allValues.map((val, ind  ) => {
+                  return  <TableCell key={ind}>{val}</TableCell>
+                  
                 })}
                 </TableRow>
-              </div>
+             
             );
           })}
         </TableBody>
-        </TableHead>
+       
       </Table>
     </TableContainer>
   );
