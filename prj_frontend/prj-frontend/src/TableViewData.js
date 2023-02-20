@@ -30,8 +30,11 @@ const TableViewData = (props) => {
   const [udata, setData] = React.useState({});
 
   const removeElement = async (id) => {
-    fetch(`https://localhost:5144/get${props.type}/delete${props.type}/${id}`, {
+    fetch(`http://localhost:5144/get${props.type}/delete${props.type}/${id}`, {
       method: "DELETE",
+      headers: {
+        "content-type": "application/json",
+        }
     }).then((res) => console.log(res.text));
   };
 
