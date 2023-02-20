@@ -29,10 +29,18 @@ const TableViewData = (props) => {
   let [updateSid, setUpdateSid] = React.useState(-1);
   const [udata, setData] = React.useState({});
 
+  const removeElement = async (id) => {
+    fetch(`https://localhost:5144/get${props.type}/delete${props.type}/${id}`, {
+      method: "DELETE",
+    }).then((res) => console.log(res.text));
+  };
+
   const getData = async (id) => {
     // console.log("id" + id);
     // console.log("prop " + props.type);
-    await fetch(`http://localhost:5144/get${props.type}/Get${props.type}ById/${id}`)
+    await fetch(
+      `http://localhost:5144/get${props.type}/Get${props.type}ById/${id}`
+    )
       .then((data) => data.json())
       .then((data) => setData(data));
     console.log(udata);
@@ -92,84 +100,25 @@ const TableViewData = (props) => {
           </TableBody>
         </Table>
       </TableContainer>
-      <Dialog open={open} onClose={handleClose} fullScreen>
-        <DialogTitle>Subscribe</DialogTitle>
-        <DialogContent>
-          <DialogContentText>
+      <Dialog open={open} onClose={handleClose}>
+        <DialogTitle>Do you want to Delete or Update data?</DialogTitle>
+        {/* <DialogContent> */}
+        {/* <DialogContentText>
             Form for security ID, {props.type}
             {updateSid}
-          </DialogContentText>
-          <TextField
-            autoFocus
-            margin="dense"
-            id="name"
-            label="Email Address"
-            type="email"
-            fullWidth
-            variant="standard"
-          />
-          <TextField
-            autoFocus
-            margin="dense"
-            id="name"
-            label="Email Address"
-            type="email"
-            fullWidth
-            variant="standard"
-          />
-          <TextField
-            autoFocus
-            margin="dense"
-            id="name"
-            label="Email Address"
-            type="email"
-            fullWidth
-            variant="standard"
-          />
-          <TextField
-            autoFocus
-            margin="dense"
-            id="name"
-            label="Email Address"
-            type="email"
-            fullWidth
-            variant="standard"
-          />
-          <TextField
-            autoFocus
-            margin="dense"
-            id="name"
-            label="Email Address"
-            type="email"
-            fullWidth
-            variant="standard"
-          />
-
-          <TextField
-            autoFocus
-            margin="dense"
-            id="name"
-            label="Email Address"
-            type="email"
-            fullWidth
-            variant="standard"
-          />
-          <TextField
-            autoFocus
-            margin="dense"
-            id="name"
-            label="Email Address"
-            type="email"
-            fullWidth
-            variant="standard"
-          />
-        </DialogContent>
+          </DialogContentText> */}
+        {/* </DialogContent> */}
         <DialogActions>
-          <Button variant="contained" onClick={handleClose}>
-            Cancel
+          <Button
+            variant="outlined"
+            onClick={() => {
+              removeElement(updateSid);
+            }}
+          >
+            Delete
           </Button>
-          <Button variant="contained" onClick={handleClose}>
-            Subscribe
+          <Button variant="outlined" onClick={handleClose}>
+            Update
           </Button>
         </DialogActions>
       </Dialog>

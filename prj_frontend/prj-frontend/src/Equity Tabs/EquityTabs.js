@@ -30,28 +30,28 @@ const EquityTabs = (props) => {
 React.useEffect(() => {
   switch (currentValue) {
     case 0:
-      result("http://localhost:5144/getequities/e-sec-summary");
+      result("http://localhost:5144/getequity/e-sec-summary");
       break;
     case 1:
-      result("http://localhost:5144/getequities/e-sec-identifier");
+      result("http://localhost:5144/getequity/e-sec-identifier");
       break;
     case 2: 
-      result("http://localhost:5144/getequities/e-sec-details");
+      result("http://localhost:5144/getequity/e-sec-details");
       break;
     case 3: 
-      result("http://localhost:5144/getequities/e-risk");
+      result("http://localhost:5144/getequity/e-risk");
       break;  
     case 4: 
-      result("http://localhost:5144/getequities/e-reg-details");
+      result("http://localhost:5144/getequity/e-reg-details");
       break;
     case 5: 
-      result("http://localhost:5144/getequities/e-ref-data");
+      result("http://localhost:5144/getequity/e-ref-data");
       break;
     case 6: 
-      result("http://localhost:5144/getequities/e-price-details");
+      result("http://localhost:5144/getequity/e-price-details");
       break;
     case 7: 
-      result("http://localhost:5144/getequities/e-div-history");
+      result("http://localhost:5144/getequity/e-div-history");
       break;  
 
     default:
