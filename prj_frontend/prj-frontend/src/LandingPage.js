@@ -159,7 +159,7 @@ function LandingPage() {
                       label={udata[value].charAt(0).toLocaleLowerCase() + udata[value].substring(1)}
                       // defaultValue={udata[value]}
                       onChange={(event) => {
-                        updateTextFields(event, value);
+                        updateTextFields(event, udata[value]);
                       }}
                     ></TextField>
                   </Grid>
