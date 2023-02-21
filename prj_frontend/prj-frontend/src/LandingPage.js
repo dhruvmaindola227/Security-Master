@@ -8,12 +8,17 @@ import Typography from "@mui/material/Typography";
 import companyLogo from "./images/ivp-footer-logo.png";
 import { height } from "@mui/system";
 import { Margin } from "@mui/icons-material";
-import { Button, Tab, Tabs } from "@mui/material";
+import { Button, Dialog, DialogActions, DialogTitle, Tab, Tabs } from "@mui/material";
 import TabBar from './TabBar'
 
 
 
 function LandingPage() {
+
+  const [open, setOpen] = React.useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
   
   return (
     <>
@@ -30,12 +35,46 @@ function LandingPage() {
           <Typography sx={{color : "#EEC643"}}> SECURITY MASTER </Typography>
         </Box>
         <Box ml = {"auto"}>
-          <Button variant = "contained" sx = {{backgroundColor : "#EEC643" , color : "black"}}>
-            create equity
+          <Button variant = "contained" sx = {{backgroundColor : "#EEC643" , color : "black"}}
+          onClick = {() => {
+              setOpen(true);
+          }}>
+            create 
           </Button>
         </Box>
       </Toolbar>
     </AppBar>
+
+    <Dialog open={open} onClose={handleClose}>
+        <DialogTitle>Do you want to create Equity or Bond?</DialogTitle>
+        <DialogActions>
+          <Button
+            variant="outlined"
+            onClick={() => {
+              
+            }}
+          >
+            Equity
+          </Button>
+          <Button
+            variant="outlined"
+            onClick={() => {
+              // setModalOpen(true);
+            }}
+          >
+            Bond
+          </Button>
+          <Button
+            variant="outlined"
+            onClick={() => {
+              handleClose();
+            }}
+          >
+            Cancel
+          </Button>
+          </DialogActions>
+          </Dialog>
+          
     </>
   );
 }

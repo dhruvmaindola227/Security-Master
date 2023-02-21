@@ -26,6 +26,7 @@ const BondTabs = (props) => {
     "http://localhost:5144/getbond/b-risk",
     "http://localhost:5144/getbond/b-reg-details",
     "http://localhost:5144/getbond/b-ref-data",
+    "http://localhost:5144/getBond/b-put-schedule",
     "http://localhost:5144/getbond/b-prc-anl",
     "http://localhost:5144/getbond/b-call-schedules",
   ];
@@ -43,38 +44,7 @@ const BondTabs = (props) => {
     
 React.useEffect(() => {
   result();
-  // switch (currentValue) {
-  //   case 0:
-  //     result("http://localhost:5144/getbond/b-sec-summary");
-  //     break;
-  //   case 1:
-  //     result("http://localhost:5144/getbond/b-sec-identifier");
-  //     break;
-  //   case 2: 
-  //     result("http://localhost:5144/getbond/b-sec-details");
-  //     break;
-  //   case 3: 
-  //     result("http://localhost:5144/getbond/b-risk");
-  //     break;  
-  //   case 4: 
-  //     result("http://localhost:5144/getbond/b-reg-details");
-  //     break;
-  //   case 5: 
-  //     result("http://localhost:5144/getbond/b-ref-data");
-  //     break;
-  //   case 6: 
-  //     result("http://localhost:5144/getbond/b-put-schedule");
-  //     break;
-  //   case 7: 
-  //     result("http://localhost:5144/getbond/b-prc-anl");
-  //     break; 
-  //   case 8: 
-  //     result("http://localhost:5144/getbond/b-call-schedules");
-  //     break;    
-
-  //   default:
-  //     break;
-  // }
+ 
 },[currentValue]); 
 
   return (
