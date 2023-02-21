@@ -212,6 +212,14 @@ const TableViewData = (props) => {
           >
             Update
           </Button>
+          <Button
+            variant="outlined"
+            onClick={() => {
+              handleClose();
+            }}
+          >
+            Cancel
+          </Button>
           <Modal
             open={isModalOpen}
             onClose={handleClose}
