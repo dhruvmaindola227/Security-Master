@@ -57,9 +57,6 @@ const TableViewData = (props) => {
   const [updateDataModel, setUpdateDataModel] = useState({});
 
   const handleCloseSnackBar = (event, reason) => {
-    // if (reason === 'clickaway') {
-    //   return;
-    // }
     setOpenSnackBar(false);
   };
 
@@ -120,8 +117,8 @@ const TableViewData = (props) => {
   };
 
   useEffect(() => {
-    console.log("new model");
-    console.log(updateDataModel);
+    // console.log("new model");
+    // console.log(updateDataModel);
   }, [updateDataModel]);
 
 
