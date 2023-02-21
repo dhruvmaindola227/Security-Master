@@ -40,6 +40,7 @@ public class EquityController : ControllerBase
     {
       var equity = typeof(Equity).GetProperties().Select(p => p.Name).ToArray();
       if(equity != null){
+        
         return Ok(equity);
       }
       return Ok(false);
@@ -67,10 +68,10 @@ public class EquityController : ControllerBase
       var equity = this._DBContext.Equities.Where(x => x.SecurityId == _equity.SecurityId).FirstOrDefault();
       if(equity != null){
         return Ok(false);
-      }else{
-        this._DBContext.Equities.Add(_equity);
-        this._DBContext.SaveChanges();
       }
+       this._DBContext.Equities.Add(_equity);
+       this._DBContext.SaveChanges();
+      
       return Ok(true);
     }
 
