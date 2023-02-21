@@ -13,7 +13,7 @@ import TabBar from './TabBar'
 
 
 
-function LandingPage() {
+function LandingPage(props) {
 
 
     const style = {
@@ -55,8 +55,8 @@ function LandingPage() {
       console.log(res);
       if (res.status == 200) {
         console.log("HEREEEEEEEEE");
-        // setOpenSnackBar(false);
-        // props.apiFx();
+        props.apiFx();
+        
       }
     });
   };

@@ -6,6 +6,7 @@ import GetBonds from "./../GetBonds";
 import { AppBar } from "@mui/material";
 import TableViewData from "../TableViewData";
 import axios from "axios";
+import LandingPage from "../LandingPage";
 
 const EquityTabs = (props) => {
   let [currentValue, setValue] = React.useState(0);
@@ -76,6 +77,7 @@ const EquityTabs = (props) => {
         </Tabs>
       </AppBar>
       <TableViewData tabledata={equityData} type={props.type} apiFx = {result} />
+      {<LandingPage apiFx = {result}/> && false} 
     </>
   );
 };

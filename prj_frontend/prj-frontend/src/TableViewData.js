@@ -136,7 +136,7 @@ const TableViewData = (props) => {
       if (res.status == 200) {
         console.log("HEREEEEEEEEE");
         setOpenSnackBar(false);
-        props.apiFx();
+       
       }
     });
   };
