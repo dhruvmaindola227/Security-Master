@@ -49,6 +49,19 @@ public class BondController : ControllerBase
         return Ok(false);
     }
 
+[HttpGet("GetBondColumns")]
+    public IActionResult GetBondColumns()
+    {
+      var bond = typeof(Bond).GetProperties().Select(p => p.Name).ToArray();
+      if(bond != null){
+        return Ok(bond);
+      }
+      return Ok(false);
+    }
+
+
+
+
     [HttpDelete("DeleteBond/{securityId}")]
     public IActionResult DeleteBond(int securityId)
     {

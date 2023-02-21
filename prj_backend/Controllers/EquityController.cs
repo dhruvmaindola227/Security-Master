@@ -35,6 +35,17 @@ public class EquityController : ControllerBase
     }
 
 
+    [HttpGet("GetEquityColumns")]
+    public IActionResult GetEquityColumns()
+    {
+      var equity = typeof(Equity).GetProperties().Select(p => p.Name).ToArray();
+      if(equity != null){
+        return Ok(equity);
+      }
+      return Ok(false);
+    }
+
+
 
     [HttpDelete("DeleteEquity/{securityId}")]
     public IActionResult DeleteEquity(int securityId)
@@ -67,7 +78,7 @@ public class EquityController : ControllerBase
      public IActionResult UpdateBond([FromRoute] int securityId , [FromBody] Equity equityModel)
     {
         if(securityId != equityModel.SecurityId){
-            return BadRequest();
+            return Ok(false);
         }
         _DBContext.Entry(equityModel).State = EntityState.Modified; //means we are trying to update the state of a particular 
         try{
